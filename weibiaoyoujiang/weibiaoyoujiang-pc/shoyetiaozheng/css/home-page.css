@@ -1,0 +1,224 @@
+.box{font-size:0;}
+.boxi{width:100%;height:auto;position:relative;}
+.fl{float:left;}
+.fr{float:right;}
+.cb{clear:both;}
+.db-ie7{display:inline-block;*zoom:1;*display:inline;}
+.dis-b{display:block;}
+/*banner*/
+.banner {height:380px;width: 100%;position: relative;overflow-x: hidden;}
+/*测试大轮播图*/
+.banner-show {font-size: 0;position: absolute;top: 0;left: 0;z-index: 0; /*width: 100%;min-width: 980px;*/height: 380px;overflow: hidden;}
+.banner-show .cell {/*position: absolute;top: 0;left: 0;*/float:left;width: 100%;/*overflow: hidden;*/}
+.banner-show .cell .con {position: relative;height: 380px;background-repeat: no-repeat;background-position: center top;}
+.big-ban-point{position:absolute;bottom:20px;left:50%;margin:0 0 0 -100px;height:12px;z-index:1;width:200px;text-align:center;}
+.big-ban-point li{margin:0 4px;display:inline-block;*display:inline;*zoom:1;width:16px;height:16px;line-height:999em;background:url(../images/banner-point.png) no-repeat;filter: alpha(opacity=80);-moz-opacity: 0.80;opacity: 0.80;border-radius:50%;overflow:hidden;cursor:pointer;}
+.big-ban-point li.active{background:url(../images/banner-point-a.png) no-repeat;z-index:18;}
+.con .banner-link {display: block;width: 100%; height: 380px;}
+.banner-minio{width:1200px;position:relative;margin:0 auto;}
+.banner-mini{width:260px;height:320px;background:url(../images/banner-mini-bg.png) no-repeat;position:absolute;right:0;top:30px;border-radius:2px;}
+.b-m-txt1,.b-m-txt2,.b-m-txt3{text-align:center;font-size:14px;color:#6d6261;}
+.b-m-txt1{padding-top:40px;}
+.b-m-txt3{padding-top:10px;}
+#tra-data{font-size:50px;color:#e94e4e;font-family:arial;}
+.ar{font-family:arial;}
+.b-m-btno{width:232px;margin:0 auto;padding-top:25px;}
+.b-m-btn{font-size:14px;display:block;text-align:center;color:#FFFFFF;text-decoration:none;line-height:66px;width:232px;height:66px;background:url(../images/register-rp-btn.png) no-repeat;}
+.b-m-btn:hover{background:url(../images/register-rp-btn-hover.png) no-repeat;}
+.b-m-btn2{display:none;font-size:14px;text-align:center;color:#FFFFFF;text-decoration:none;line-height:66px;width:232px;height:66px;background:url(../images/register-rp-btn.png) no-repeat;}
+.b-m-btn2:hover{background:url(../images/register-rp-btn-hover.png) no-repeat;}
+.banner-login .b-m-btn2{display:block;}
+.banner-login .b-m-btn{display:none;}
+/*首页一*/
+.in1o{width:100%;height:160px;/*border-bottom:1px solid #eeeeee;*/}
+.in1{position:relative;width:1200px;height:160px;margin:0 auto;}
+.in1-1{padding-top:40px;padding-left:70px;}
+.in1-2{padding-top:40px;}
+.in1-3{padding-top:40px;padding-left:118px;}
+.in1-icon{display:inline-block;*display:inline;*zoom:1;width:52px;height:60px;}
+.in1-icon1{background:url(../images/in1-icon1.png) no-repeat;}
+.in1-icon2{background:url(../images/in1-icon2.png) no-repeat;}
+.in1-icon3{background:url(../images/in1-icon3.png) no-repeat;}
+.in1-txt{padding-left:20px;line-height:30px;display:inline-block;*display:inline;*zoom:1;color:#6d6261;font-size:14px;}
+.in1-txt1{color:#3a3433;font-size:18px;}
+/*首页2公告*/
+.in2o{width:100%;height:50px;border-bottom:1px solid #eeeeee;}
+.in2{width:1200px;height:50px;margin:0 auto;line-height:50px;}
+.in2-1{display:inline-block;*display:inline;*zoom:1;height:50px;}
+.notice-icon{*vertical-align: middle;margin-bottom:16px;width:23px;height:18px;background:url(../images/notice-icon.png) no-repeat;}
+.in2-txt1{padding-left:5px;color:#6d6261;font-size:14px;text-decoration:none;height: 50px;}
+.in2-txt1 span{color:#b3adad;}
+.oper-report-icon{vertical-align: middle;margin-bottom:2px;width:20px;height:25px;background:url(../images/oper-report-icon.png) no-repeat;}
+.in2-txt1o{padding-right:50px;}
+/*首页3产品*/
+/*新手理财*/
+.in3o-1{width:100%;height:276px;border-bottom:1px solid #eeeeee;}
+.in3-1{width:1200px;height:276px;margin:0 auto;line-height:50px;position:relative;}
+.in3-1i{width:599px;}
+.in3-1i2{width:1200px;}
+.in3-txt1o{color:#6d6261;font-size:14px;padding-top:45px;padding-bottom:10px;}
+.in3-txt2o{color:#6d6261;font-size:14px;}
+.in3-txt1{font-size:28px;color:#3a3433;padding-right:5px;}
+.in3-txt2{color:#e94e4e;}
+.in3-txt3{color:#b3adad;text-decoration:none;padding-left:5px;}
+.in3-txt4{font-size:50px;color:#e94e4e;font-family:arial;}
+.in3-txt4a{color:#e94e4e;}
+.in3-txt4-1{font-size:30px;color:#e94e4e;font-family:arial;}
+.in3-txt4-2{font-size:16px;color:#e94e4e;font-family:arial;}
+.in3-txt4-3{color:#c8cdcc;padding:0 5px;font-family:arial;}
+.in3-txt4-4{font-size:30px;color:#3a3433;font-family:arial;}
+.in3-1btno{margin-left:75px;}
+.in3-2btno{margin-left:32px;}
+.in3-1btn1{width:100px;height:36px;text-align:center;line-height:36px;background:#e94e4e;color:#FFFFFF;display:block;text-decoration:none;border-radius:2px;}
+.in3-1btn1:hover{background:#ec6868;}
+.in3-jdt{clear:both;margin-top:18px;}
+.newer-jdto{width:180px;height:4px;background:#eeeeee;}
+.newer-jdt{height:4px;background:#f4a6a6;}
+.in3-txt5{font-size:14px;color:#6d6261;line-height:25px;}
+.in3-txt5 span{font-family:arial;padding:0 5px;}
+.in3-cp-all{overflow:hidden;clear:both;width:1200px;}
+.in3-line{width:1px;height:110px;background:#EEEEEE;float:left;}
+.in3-1btn2{width:96px;height:32px;text-align:center;line-height:32px;background:#FFFFFF;color:#e94e4e;display:none;border:2px solid #E94E4E;text-decoration:none;border-radius:2px;}
+.in3-qglo .in3-1btn2{display:block;}
+.in3-qglo .in3-1btn1{display:none;}
+.in3-yqyl{position:absolute;bottom:0px;left:50%;margin-left:-96px;}
+/*天天宝&天天宝+*/
+.in3o-2{width:100%;height:240px;border-bottom:1px solid #eeeeee;}
+.in3-2{width:1200px;height:240px;margin:0 auto;}
+.in3-line2{width:1px;height:240px;background:#EEEEEE;float:left;}
+.in3-cp-all2{overflow:hidden;clear:both;width:1200px;}
+.in3-1i3{width:600px;}
+.in3-1i4{width:540px;margin-left:50px;}
+.in3-txt4-5{font-size:20px;color:#3a3433;font-family:arial;}
+.in3-countdown{display:none;width:156px;height:32px;text-align:center;background:#FFFFFF;line-height:32px;/*border:2px solid #e94e4e;*/border-radius:3px;font-size:14px;color:#e94e4e;}
+.in3-cdo .in3-countdown{display:block;}
+.in3-cdo .in3-1btn1{display:none;}
+.in3-time-icon{margin-left:8px;vertical-align:middle;width:18px;height:18px;background:url(../images/in3-time-icon.png) no-repeat;}
+.in3-lock-icon{margin-left:8px;vertical-align:middle;width:18px;height:18px;background:url(../images/in3-lock-icon.png) no-repeat;}
+/*票票宝*/
+.in3o-3{width:100%;min-height:535px;border-bottom:1px solid #eeeeee;}
+.in3-3{width:1200px;min-height:535px;margin:0 auto;}
+.in3-ppb{list-style:none;}
+.in3-ppb li:last-child{border:none;}
+.in3-ppbi{width:1200px;height:105px;border-bottom:1px solid #EEEEEE;line-height:105px;}
+.in3-ppbqx{line-height:14px;padding:2px 5px;border:1px solid #f4a6a6;border-radius:3px;text-align:center;color:#e94e4e;font-size:14px;}
+.in3-ppb-txt0{width:100px;font-size:14px;color:#6d6261;}
+.in3-ppb-txt1{width:205px;font-size:14px;color:#6d6261;position:relative; }
+.in3-ppb-txt1-1{font-size:30px;font-family:arial;color:#e94e4e;}
+.in3-ppb-txt1-2{font-size:16px;font-family:arial;color:#e94e4e;}
+.in3-ppb-txt2{width:190px;font-size:14px;color:#6d6261;}
+.in3-ppb-txt2-1{font-size:30px;}
+.in3-ppb-txt3{width:210px;font-size:14px;color:#6d6261;}
+.in3-ppb-txt4{width:360px;font-size:14px;color:#6d6261;}
+.ppb-jdto{width:170px;height:4px;background:#eeeeee;vertical-align:middle;margin-left:5px;}
+.ppb-jdt{height:4px;background:#f4a6a6;}
+.in-ppb-btn{width:100px;text-align:center;}
+.in-ppb-btn1{display:block;border-radius: 2px;width:100px;height:36px;text-align: center;line-height: 36px;color:#FFFFFF;border-radius:2px;background: #e94e4e;font-size:14px;text-decoration:none;}
+.in-ppb-btn1:hover{background:#ec6868;}
+.in-ppb-btn2{border:2px solid #FFFFFF;display:none;color:#e94e4e;text-align:center;line-height: 36px;width:96px;height:32px;border-radius: 2px;font-size:14px;text-decoration:none;}
+.in-ppb-btn2:hover{border:2px solid #e94e4e;border-radius: 2px;}
+.in-ppb-qgl .in-ppb-btn2{display:block;}
+.in-ppb-qgl .in-ppb-btn1{display:none;}
+/*玩赚宝*/
+.in3o-4{width:100%;height:240px;border-bottom:1px solid #eeeeee;}
+.in3-4{width:1200px;height:240px;margin:0 auto;}
+.in3-1i5{width:735px;}
+.in3-line3{width:1px;height:240px;background:#EEEEEE;float:left;}
+.app-down-qro{width:185px;text-align:center;color:#6d6261;font-size:14px;}
+.app-down-qr{width:124px;margin:0 auto;padding-top:40px;padding-bottom:10px;}
+.in3-line4{width:1px;height:158px;background:#EEEEEE;float:left;margin-top:40px;}
+.in3-wzb-qr{margin-left:20px;}
+
+/*首页4媒体报道*/
+.in4o{width:1200px;height:527px;margin:0 auto;}
+.in4{height:400px;}
+.in-m{/*margin-top:30px;*/border-bottom:1px solid #eeeeee;}
+.in-m1{width:259px;height:211px;position:absolute;right:0;top:0;}
+.in-m1o{background:#FFFFFF;width:259px;height:211px;position:absolute;right:0;top:0;}
+
+.in-line5{display:block;position:absolute;right:259px;top:0;width:1px;height:211px;background:#EEEEEE;}
+.in-m-txt1{color:#3a3433;font-size:18px;text-align:center;width:250px;}
+.in-m-txt2{color:#b3adad;font-size:14px;text-align:center;width:250px;text-decoration:none;}
+.in-m-txt2:hover{color:#e94e4e;}
+.in-m1i{position:absolute;top:20%;/*margin-top:-30px;*/line-height:30px;}
+.in-newso{width:1200px;}
+.in-news1{width:380px;margin-left:0px;margin-top:25px;position:relative;}
+.in-news{width:380px;margin-left:30px;margin-top:25px;position:relative;}
+.in-news-banner{width:100%;height:160px;display:block;text-decoration:none;}
+.in-news-txt1{font-size:14px;display:block;width:380px;text-align:center;color:#FFFFFF;position:absolute;top:135px;}
+.in-news-ti{padding-top:15px;width:100%;height:45px;line-height:45px;color:#6d6261;font-size:18px;border-bottom:1px solid #eeeeee;}
+.in-news-ti a{color:#6d6261;font-size:14px;text-decoration:none;}
+.in-news-ti a:hover{color:#e94e4e;}
+.in-news-list{padding-top:15px;}
+.in-news-list a{white-space:nowrap; overflow:hidden; text-overflow:ellipsis;color:#6d6261;font-size:14px;display:block;line-height:36px;text-decoration:none;}
+.in-news-list a:hover{color:#e94e4e;}
+.in-news-banner img{position:absolute;top:0;left:0;width:380px;height:160px;}
+.gray-line{width:100%;height:10px;background:#f8f6f4;}
+.in-news-banner img{	
+	moz-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;}
+.in-news-banner:hover img{	
+	 transform: scale(0.98);  
+	}
+.in-m1{	
+	moz-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;}
+ .in-m1:hover{	
+	 right:10px;  
+	}   
+
+/*投资者视频*/
+.in5o{width:100%;height:239px;}
+.in5{display:block;width:100%;height:239px;}
+/*合作伙伴*/
+.in6o{width:100%;height:310px;background:url(../images/hzhb-bgtop.png) top no-repeat;}
+.in6{width:1200px;height:310px;margin:0 auto;}
+.in6-txt1o{color:#6d6261;font-size:14px;padding-top:25px;}
+.hzhb-logo img{margin-left:135px;margin-top:40px;}
+.r-f-btni{padding-top:2px;}
+.r-f-topbtno{display:none;}
+.l-float-btn{position:fixed;left:0;z-index:1000;bottom:0;margin-top:-85px;display:none;}
+.in-md-icon{display:block;width:165px;}
+.in-md-icon img{width:100%;max-width:465px;min-width:165px;}
+.md-open .l-float-btn{display:block;}
+#scro-txt{line-height:50px; height:50px; overflow:hidden;position:relative;width:620px;}
+.in2-more:hover,.in3-txt3:hover, #scro-txt:hover a,#scro-txt:hover span{color:#e94e4e;}
+.in1-txt1-2{line-height:24px;}
+.in2-txt1 .hp-newstxt{margin-right:25px;color:#6d6261;text-overflow:ellipsis;white-space:nowrap;width:500px;overflow:hidden;}
+.in1-line{width:80%;display:block;height:1px;background:#eeeeee;}
+.in3-txt4-3a{color:#c8cdcc;padding:0 40px;font-family:arial;}
+/*营销标签*/
+ .message-box {
+	display:inline-block; 
+    position:absolute;
+    left:5px;
+    top:15px; 
+    width:120px;
+    line-height:16px;
+    background:#fff;
+    border:1px solid #e94e4e;
+    text-align:center;
+    color:#e94e4e;
+    font-size:14px; 
+}
+.triangle-border {
+    position:absolute;
+    left:45px;
+    overflow:hidden;
+    width:0;
+    height:0;
+    border-width:7px;
+    border-style:solid dashed dashed dashed;
+}
+.tb-border {
+    border-color:#e94e4e transparent transparent transparent;
+    bottom:-14px;
+}
+.tb-background {
+    border-color:#fff transparent transparent transparent;
+    bottom:-13px;
+}

@@ -1,0 +1,208 @@
+.box{background:#eeeeee;}
+.ppb-all{width:1000px;margin:0 auto;}
+
+.ppb-t{width:1000px;height:260px;margin-top:10px;}
+.ppb-tl{float:left;width:650px;height:260px;background:#ffffff;}
+.ppb-tlt{width:650px;height:70px;background:#fafafa;border-bottom:1px solid #EEEEEE;}
+.ppb-tlttxt1o{padding:20px 0 0 30px;}
+.ppb-tlttxt1{float:left;display:block;background:#f08383;height:30px;line-height:30px;padding:0 7px;border-bottom-left-radius:5px;border-top-left-radius:5px;color:#FFFFFF;font-size:16px;}
+.ppb-tlttxt2{float:left;display:block;background:#e94e4e;height:30px;line-height:30px;padding:0 7px;border-bottom-right-radius:5px;border-top-right-radius:5px;color:#FFFFFF;font-size:16px;}
+.ar{font-family:arial;}
+.fl{float:left;}
+.fr{float:right;}
+.ppb-tlttxt3o{float:left;padding-left:10px;font-size:16px;color:#6d6261;line-height:30px;}
+.ppb-tlttxt4o{float:left;font-size:14px;color:#6d6261;line-height:30px;padding-left:70px;}
+.ppb-tlttxt4o i{margin-right:5px;vertical-align:middle;display:inline-block;*display:inline;*zoom:1;width:13px;height:16px;background:url(../img/ppb-icon1.png) no-repeat;}
+.ppb-tlb{}
+.ppb-tlb1{float:left;width:210px;padding-left:30px;padding-top:38px;}
+.ppb-tlb2{float:left;width:180px;padding-top:65px;}
+.ppb-tlb3{float:left;width:225px;padding-top:65px;}
+.ppb-tlbtxt1{color:#e94e4e;font-size:30px;font-family:arial;height:60px;}
+.ppb-tlbtxt1 span{font-size:60px;}
+.ppb-tlbtxt2{font-size:14px;color:#6d6261;padding-top:5px;}
+.ppb-tlbtxt3{font-size:16px;color:#3a3433;}
+.ppb-tlbtxt3 span{font-family:arial;font-size:30px;}
+.ppb-tr{float:right;width:340px;height:260px;background:#ffffff;position:relative;}
+.ppb-trt{width:340px;height:70px;background:#fafafa;border-bottom:1px solid #EEEEEE;}
+.ppb-trtxt1{font-size:14px;color:#6d6261;line-height:70px;padding-left:30px;}
+.ppb-trtxt1 a{color:#e94e4e;}
+.ppb-trtxt2{font-size:14px;color:#6d6261;line-height:60px;padding-left:30px;}
+.ppb-input1{position:absolute;left:0px;border-radius:3px;outline:medium;font-family:arial;width:185px;height:32px;line-height:32px;padding-left:5px;border:2px solid #e94e4e;}
+.ppb-input1:focus{border:2px solid #e94e4e;}
+.ppb-input1o{margin-left:30px;position:relative;height:36px;}
+.ppb-trtxt3{font-size:14px;color:#3a3433;position:absolute;top:10px;left:165px;}
+.ppb-yeqt-btn{position:absolute;right:30px;font-size:14px;text-decoration:none;width:80px;height:36px;border-radius:3px;background:#b3adad;color:#fafafa;text-align:center;line-height:36px;display:inline-block;*display:inline;*zoom:1;}
+.ppb-buy-btno{margin-left:30px;margin-top:20px;}
+.ppb-buy-btn{text-decoration:none;color:#ffffff;font-size:14px;text-align:center;line-height:36px;width:280px;height:36px;background:#e94e4e;border-radius:3px;display:block;}
+.ppb-buy-btn:hover{background:#ec6868;}
+/*预售中*/
+.ppb-presale-btn{cursor:default;display:none;text-decoration:none;color:#ffffff;font-size:14px;text-align:center;line-height:36px;width:280px;height:36px;background:#b3adad;border-radius:3px;}
+.yesl-presale .ppb-buy-btn{display:none;}
+.yesl-presale .ppb-presale-btn{display:block;}
+
+/*已登录购买 */
+.yesl-buy .ppb-trtxt1{display:none;}
+.ppb-trtxt1-2{display:none;font-size:14px;color:#6d6261;line-height:70px;padding-left:30px;}
+.yesl-buy .ppb-trtxt1-2{display:block;}
+.ppb-trtxt1-2 span{padding:0 5px;}
+.ppb-trtxt1-2 a{font-size:14px;color:#ff9630;text-decoration:none;}
+.ppb-cz-btn{margin-left:10px;}
+.yesl-buy .ppb-yeqt-btn{background:#e94e4e;}
+.yesl-buy .ppb-yeqt-btn:hover{background:#ec6868;}
+.ins-amount{display:none;padding-left:30px;padding-top:5px;font-size:14px;color:#e94e4e;}
+.ins-amounto .ins-amount{display:block;}
+
+/*未登录收益中*/
+.nol-syzo .nol-buy{display:none;}
+.nol-syz{position:relative;display:none;}
+.ppb-qgl-icon{display:block;width:126px;height:111px;background:url(../img/ppb-qgl-icon.png) no-repeat;position:absolute;right:0;top:0;}
+.nol-syztxt{padding-left:30px;padding-top:95px;}
+.nol-syztxt1{font-size:14px;color:#6d6261;}
+.nol-syztxt2{font-size:14px;color:#6d6261;padding-top:25px;}
+.nol-syztxt2 a{color:#e94e4e;}
+.nol-syzo .nol-syz{display:block;}
+.nol-syztxt1 span,.nol-syztxt2 span{color:#3a3433;}
+
+/*登录收益中*/
+.yesl-syzo .nol-syztxt2,.yesl-syzo .nol-buy{display:none;}
+.nol-syztxt3 span{color:#3a3433;}
+.nol-syztxt3{display:none;font-size:14px;color:#6d6261;padding-top:25px;}
+.yesl-syzo .nol-syz,.yesl-syzo .nol-syztxt3{display:block;}
+
+/*未登录还款已结束*/
+.nol-hkjs,.nol-hkjso .nol-buy{display:none;}
+.nol-hkjso .nol-hkjs{display:block;}
+.ppb-yhk-icon{display:block;width:126px;height:111px;background:url(../img/ppb-yhk-icon.png) no-repeat;position:absolute;right:0;top:0;}
+
+/*登录还款已结束*/
+.yesl-hkjso .nol-buy,.yesl-hkjso .nol-syztxt2{display:none;}
+.yesl-hkjso .nol-hkjs,.yesl-hkjso .nol-syztxt3{display:block;}
+
+/*票票宝产品、介绍、问题 切换*/
+.ppb-b{width:1000px;height:auto;margin-top:10px;background:#fafafa;}
+.ppb-bt{width:1000px;height:53px;border-bottom:1px solid #eeeeee;}
+.pro-inf1{width:940px;height:184px;border:1px solid #EEEEEE;margin:30px auto;background:#FFFFFF;}
+.pro-info,.pro-into,.com-proo{float:left;width:333px;text-align:center;font-size:16px;color:#b3adad;line-height:53px;}
+.pro-infoa,.pro-intoa,.com-prooa{color:#b3adad;font-size:16px;text-decoration:none;}
+.ppb-bqh i{display: block;margin:-2px auto;width: 95px;height: 2px;background: #e94e4e;}
+.ppb-bqh .pro-infoa,.ppb-bqh .pro-intoa,.ppb-bqh .com-prooa{color:#e94e4e;}
+.pro-inf1i{margin:0 12px;float:left;text-align:center;font-size:14px;color:#3a3433;}
+.ppb-cpicon1{width:60px;height:60px;display:inline-block;*display:inline;*zoom:1;background:url(../img/ppb-cpicon1.png) no-repeat;}
+.ppb-cpicon2{width:60px;height:60px;display:inline-block;*display:inline;*zoom:1;background:url(../img/ppb-cpicon2.png) no-repeat;}
+.ppb-cpicon3{width:60px;height:60px;display:inline-block;*display:inline;*zoom:1;background:url(../img/ppb-cpicon3.png) no-repeat;}
+.ppb-cpicon4{width:60px;height:60px;display:inline-block;*display:inline;*zoom:1;background:url(../img/ppb-cpicon4.png) no-repeat;}
+.pro-inf1i2{float:left;text-align:center;font-size:14px;color:#3a3433;}
+.ppb-cpline1{width:153px;height:17px;display:inline-block;*display:inline;*zoom:1;background:url(../img/ppb-cpline1.png) no-repeat;}
+.pro-inf1all{overflow:hidden;width:815px;margin:35px auto 10px auto;}
+.pro-inf1all2{width:815px;margin:0 auto;}
+.pro-inf1i3{float:left;text-align:center;font-size:14px;color:#3a3433;}
+.ppb-table1{width:940px;margin:0 auto;}
+table.ppb-table1{border:1px solid #e6e6e6;border-collapse:collapse;font-size:14px;color:#42464e;text-align: center;}
+table.ppb-table1 tr,table.ppb-table1 td{border:1px solid #e6e6e6;}
+.m-c-czxztable1{height:34px;background:#fafafa;}
+.m-c-czxztable2{background:#ffffff;height:51px;}
+.pro-inf2{padding-bottom:30px;}
+.ppb-tbgray{background:#fcfcfc;width:160px;font-size:14px;color:#6d6261;line-height:55px;}
+.ppb-tbgray2{background:#fcfcfc;width:160px;font-size:14px;color:#6d6261;line-height:180px;}
+.ppb-tbwit{padding-left:50px;text-align:left;background:#FFFFFF;color:#3a3433;font-size:14px;line-height:55px;}
+.ppb-tbwit2{padding-left:50px;line-height:30px;text-align:left;background:#FFFFFF;color:#3a3433;font-size:14px;}
+.pro-int1{width:1000px;height:305px;background:#FFFFFF;}
+.pro-inttxt1{font-size:20px;color:#3a3433;text-align:center;display:block;padding-top:70px;}
+.pro-inttxt2{line-height:30px;font-size:14px;color:#6d6261;padding-top:50px;width:700px;margin:0 auto;}
+.pro-int2{width:1000px;height:511px;background:#fafafa;}
+.pro-int2i{overflow:hidden;margin-top:50px;}
+.pro-int2i1{line-height:30px;font-size:14px;color:#6d6261;width:333px;float:left;text-align:center;}
+.ppb-jsicon1{width:110px;height:110px;background:url(../img/ppb-jsicon1.png) no-repeat;display:inline-block;*display:inline;*zoom:1;}
+.pro-inttxt3{font-size:20px;color:#3a3433;}
+.ppb-jsicon2{width:110px;height:110px;background:url(../img/ppb-jsicon2.png) no-repeat;display:inline-block;*display:inline;*zoom:1;}
+.ppb-jsicon3{width:110px;height:110px;background:url(../img/ppb-jsicon3.png) no-repeat;display:inline-block;*display:inline;*zoom:1;}
+.pro-int3{width:1000px;height:511px;background:#FFFFFF;}
+.pro-int3i{padding:70px 0;}
+.com-proq{line-height:30px;color:#6d6261;font-size:14px;text-indent:-1.5em;}
+.com-proa{line-height:30px;color:#b3adad;font-size:14px;text-indent:-1.5em;}
+.com-proi{padding-bottom:70px;width:695px;margin:0 auto;}
+.com-proqa{padding-top:50px;}
+/*弹窗*/
+.ppb-mask{width:100%;display: none;height: 100%;position: fixed;_position: absolute;background: #1a1a1a;filter: alpha(opacity=65);-moz-opacity:0.65;opacity:0.65;z-index: 100;top: 0;}
+.ye-enougho .ppb-mask,.ye-enougho .ye-enough{display:block;}
+.ye-enough{display:none;position:absolute;z-index:101;top:366px;left:50%;margin-left:-334px;width:668px;height:626px;background:#ffffff;border:6px solid #b3adad;}
+.ppb-ddtxt1{width:668px;height:40px;background:#eeeeee;line-height:40px;font-size:16px;color:#3a3433;}
+.ppb-ddtxt1 p{padding-left:10px;}
+.ye-enoughi{width:290px;margin:0 auto;/*overflow:hidden;*/}
+.ye-enotxt1{padding-top:23px;height:30px;width:290px;margin:0 auto;}
+.ppb-ddtxt2{line-height:30px;font-size:16px;float:left;color:#6d6261;}
+.ppb-ddtxt3{line-height:30px;font-size:16px;font-family:arial;float:right;color:#e94e4e;}
+.ppb-ddtxt4{line-height:30px;font-size:16px;color:#6d6261;float:right;}
+.ppb-ddinput1{float:right;position:relative;}
+.ppb-ddinput1 input{line-height:28px;padding-left:5px;padding-right:30px;width:125px;height:28px;border:1px solid #c8cdcc;}
+.ppb-ddtxt5{position:absolute;color:#6d6261;font-size:16px;right:10px;top:5px;}
+.ppb-ddselect1{float:right;}
+.ppb-ddselect1 select{line-height:28px;text-align:right;width:160px;height:28px;border:1px solid #c8cdcc;}
+.ppb-ddselect1 option{height:30px;line-height:30px;border-bottom:1px solid #c8cdcc;}
+.ppb-ddtxt6{float:right;color:#6d6261;font-size:16px;}
+.ppb-ddtxt6 span{color:#6d6261;font-size:20px;}
+.ye-enotxt2{float:right;color:#b3adad;font-size:14px;}
+.ye-enoughi2{position:absolute;bottom:0;width:668px;height:240px;background:#f8f6f3;}
+.ppb-ddtxt7{text-align:center;font-size:16px;color:#3a3433;padding:43px 0;}
+.ppb-ddtxt7 span{font-size:20px;color:#e94e4e;}
+.ppb-ddbtn1{display:block;text-align:center;font-size:16px;color:#ffffff;line-height:45px;text-decoration:none;margin:0 auto;width:140px;height:45px;background:#e94e4e;}
+.ppb-ddbtn1:hover{background:#ec6868;}
+
+.ppb-ddclosebtn{display:block;float:right;width:21px;height:21px;background:url(../img/ppb-closeicon.png) no-repeat;}
+.ppb-ddclosebtno{padding:8px;}
+/*余额不足 充值*/
+.ye2-noen{display:none;}
+.ye-noe-cz .ye-enough{height:676px;}
+.ye-noe-cz .ye-enoughi2{height:290px;}
+.ye-noe-cz .ye2-en{display:none;}
+.ye-noe-cz .ppb-ddtxt7{padding-bottom:0;}
+.ye-noe-cz .ye2-noen .ye-enotxt1{padding-bottom:30px;}
+.ye-noe-cz .ye2-noen{display:block;}
+/*投资结果提示*/
+.inv-reso .ppb-mask,.inv-reso .inv-res{display:block;}
+.inv-res{display:none;position:absolute;z-index:101;top:160px;left:50%;margin-left:-334px;width:668px;height:492px;background:#ffffff;border:6px solid #b3adad;}
+.inv-restxt1{clear:both;margin:40px auto;text-align:center;color:#6d6261;font-size:16px;}
+.inv-restxt2 .ppb-ddtxt7{padding:0;}
+.inv-restxt3{width:420px;text-align:center;line-height:20px;font-size:16px;color:#b3adad;height:20px;margin:50px auto 10px auto;background:url(../img/ppb-linebg.png) no-repeat;}
+.inv-restxt4{padding-top:23px;height:30px;width:225px;margin:0 auto;}
+.inv-restxt4 .ppb-ddtxt2,.inv-restxt4 .ppb-ddtxt4{color:#b3adad;}
+.inv-restxt5{font-size:14px;background:#f8f6f3;width:668px;height:106px;position:absolute;bottom:0;}
+.inv-restxt5i{width:405px;overflow:hidden;margin:40px auto;}
+.inv-restxt5-1{color:#b3adad;float:left;}
+.inv-restxt5-2o{float:left;margin-left:36px;}
+.inv-restxt5-2{color:#6d6261;}
+/*投资失败*/
+.inv-resf .inv-resi,.inv-resfi{display:none;}
+.inv-resf .inv-resfi{display:block;clear:both;text-align:center;margin-top:80px;}
+.inv-resfitxt1{color:#e94e4e;font-size:16px;padding-top:30px;}
+.inv-resfitxt2{color:#6d6261;font-size:16px;padding-top:30px;}
+.inv-resfitxt2 span{color:#e94e4e;font-size:20px;}
+.inv-resfitxt3{color:#b3adad;font-size:16px;padding-top:30px;}
+/*下拉列表*/
+select{display: none;}
+.select_box1{background:#ffffff;border:1px solid #c8cdcc;font-size:16px;color:#6d6261;width:160px;line-height:28px;float:right;}
+.select_showbox1{/*overflow: hidden;*/height:28px;line-height:28px;padding-left:5px;background:url(../img/ppb-selecticon.png) no-repeat right;}
+.select_option1{border-top: none;border:1px solid #c8cdcc;display: none;position:absolute;width:160px;background:#ffffff;left:317px;}
+.select_option1 li{border-bottom:1px solid #c8cdcc;padding-left: 5px;list-style: none;/*height:32px;*/line-height:32px;color:#3a3433;}
+.select_option1 li:last-child{border:0;}
+.select_option1 li.selected{background-color: #F3F3F3;color:#919b9a;}
+.select_option1 li.hover{background: #e6e6e6; color:#919b9a;}
+.select_option1 .ppb-op-gray{color:#b3adad;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,246 @@
+@charset "utf-8";
+body, div, h1, h2, h3, h4, h5, h6, p, blockquote, pre, dl, dt, dd, ol, ul, li, hr, fieldset, form, label, legend, th, td, article, aside, figure, footer, header, menu, nav, section, summary,a{
+	margin: 0;
+	padding: 0;
+	border: none;
+	font-family:-apple-system,"Helvetica Neue",HelveticaNeue,"Helvetica-Neue",Helvetica, Verdana,"Microsoft YaHei", "SimHei", "SimSun";
+
+}
+*{ -webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-tap-highlight-color: transparent; }
+a {
+    -webkit-touch-callout: none;
+    -ms-touch-callout: none;
+    -moz-touch-callout: none;
+    -o-touch-callout: none;
+    touch-callout: none;
+}
+img {
+	border:none;
+	margin: 0;
+	padding: 0; 
+}
+ul {
+	list-style:none;
+}
+a {	
+	text-decoration:none;
+}
+a:active, a:hover {
+	outline: none;
+}
+table{
+	border-collapse: collapse;
+}
+input{
+	outline:none; 
+}
+
+input:-webkit-autofill,input:focus:-webkit-autofill{
+	-webkit-box-shadow: 0 0 0px 1000px white inset;
+}
+input::-webkit-input-placeholder{color:#e0c68e;}
+/*字体大小*/
+
+.size22{ 
+	font-size:0.22rem;
+}
+
+.size24{ 
+	font-size: 0.24rem;
+}
+.size26{ 
+	font-size: 0.26rem;
+}
+.size36{ 
+	font-size: 0.36rem;
+}
+.size38{ 
+	font-size: 0.38rem;
+}
+.size76{ 
+	font-size: 0.76rem;
+}
+
+.size30{ 
+	font-size:0.3rem;
+}
+.size32{ 
+	font-size:0.32rem;
+}
+
+.size42{
+	font-size: 0.42rem;
+}
+.size50{
+	font-size: 0.5rem;
+}
+.size70{
+	font-size: 0.7rem;
+}
+.size45{
+	font-size: 0.45rem;
+}
+.size95{
+	font-size: 0.95rem;
+}
+.size64{
+	font-size: 0.64rem;
+}
+.size60{
+	font-size: 0.6rem;
+}
+/*字体颜色*/
+.bai{ color:#ffffff;}
+.yanse1{
+	color:#6d6261; 
+}
+.yanse2{
+	color:#3a3434; 
+}
+.yanse3{
+	color:#f9524f; 
+}
+.yanse4{
+	color:#b3adad; 
+}
+.yanse5{
+	color:#61646d; 
+}
+.yanse6{
+	color:#b4b4b4; 
+}
+.yanse7{
+	color:#3399ff; 
+}
+.pc3_txt_color_red1{color:#e42c27;}
+.pc3_txt_color_red2{color:#d00f2b;}
+.pc3_txt_color555{color:#555555;}
+.pc3_txt_color999{color:#999999}
+.pc3_txt_colore9{color:#e9e9e9;height:16px;}
+.pc3_txt_color8b{color:#8b8b8b;}
+.pc3_txt_colorc4{color:#c4c4c4；}
+.pc3_txt_color_orange{color:#f6ac64;}
+/*字体*/
+.pc3_txt_font1{ font-family:arial;}
+.pc3_txt_font2{ font-family: "黑体";}
+.pc3_txt_font3{ font-family: "宋体";}
+.pc3_txt_font22{font-family: arial;}
+/*行高*/
+.hanggao30{ 
+	line-height:0.3rem;
+}
+.hanggao40{ 
+	line-height:0.4rem;
+}
+.hanggao45{ 
+	line-height:0.45rem;
+}
+.hanggao80{ 
+	line-height:0.8rem;
+}
+
+.centerx{
+	text-align:center; 
+}
+.jiacu{
+	font-weight:bold; 
+}
+.zuo{
+	float: left;
+}
+.you{
+	float: right;
+}
+.qingchu{
+	clear:both; 
+}
+.tan{
+	z-index:9001; 
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.8);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#c8000000,endColorstr=#c8000000);
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+.biao td{
+	height:0.7rem;
+	line-height: 0.7rem;
+	text-align: center;
+	border:1px solid #e1c382; 
+	font-size:0.24rem;
+	color: #8c7531; 
+
+}
+
+
+
+
+/*转盘*/
+.turntable-bg {
+  width: 7.7rem;
+  height: 7.76rem;
+  margin: 0 auto; 
+  position: relative;
+  background: url("../img/dipan.png") center no-repeat;
+  background-size: 100% 100%;
+}
+
+.turntable-bg .pointer {
+  background: url(../img/chushianniu.png) center no-repeat;
+  background-size:cover; 	
+  width: 2.07rem;
+  height:2.44rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -1.035rem;
+  margin-top: -1.22rem;
+  z-index: 8;
+}
+.turntable-bg .pointer:active{
+  background: url(../img/yiruanniu.png) center no-repeat;
+  background-size:cover; 	
+  width: 2.07rem;
+  height:2.44rem;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -1.035rem;
+  margin-top: -1.22rem;
+  z-index: 8;
+}
+.turntable-bg .rotate {
+  width:6.29rem;
+  height:6.28rem;
+  /*position: absolute;
+  left: 0.7rem;
+  top: 0.65rem;*/
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -3.145rem;
+  margin-top: -3.14rem;
+}
+
+
+
+.jiangli a{
+	background:#e94d4e;
+}
+.jiangli a:active{
+	background:#ec6868; 
+}
+.pan1{
+	background: url(../img/pan1.png) center no-repeat;	
+}
+.pan1:active{
+	background: url(../img/pan2.png) center no-repeat;
+}
+.ann a{
+	background: url(../img/chushianniu1.png) center no-repeat;
+}
+.ann a:active{
+	background: url(../img/yiruanniu1.png) center no-repeat;
+}

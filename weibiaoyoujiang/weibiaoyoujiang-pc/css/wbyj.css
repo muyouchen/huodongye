@@ -1,0 +1,34 @@
+/* 尾投奖励样式 */
+.inv-wt-btn { position: absolute; top:70px; right:30px; display: block; width: 116px; height: 117px; background: url('../img/wbyj_jiang.png') no-repeat center center;}
+.inv-wt-btn:hover { background: url('../img/wbyj_jiang_on.png') no-repeat center center; }
+.inv-res.wt-inner { display: none; height: 638px; top:60px;}
+.wt-pop .ppb-mask, .wt-pop .wt-inner,.wt-lost-pop .ppb-mask,.wt-lost-pop .wt-lost,.inv-reso-last .ppb-mask, .inv-reso-last .wt-last { display: block; }
+.wt-box { font-size: 16px; } 
+.wt-box p { text-align: center;  }
+.wt-info1 { padding-top: 30px; color:#6d6261;}
+.wt-info2 { padding: 12px 0 25px; color:#6d6261;}
+.wt-info3 { margin-top: 110px; color: #b3adad; }
+.wt-info3 a{ color:#b3adad}
+.wt-info3 a:hover{ text-decoration: underline;}
+.wt-info4 { padding: 32px 0; color: #e94e4e; }
+
+.wt-table { position: relative; width: 316px; height: 316px; margin: 0 auto; background: url('../img/turntable-bottom.png') no-repeat center center; }
+.wt-roate { position: absolute; top: 50%; left: 50%; z-index: 1; width: 265px; height: 265px; margin: -132.5px 0 0 -132.5px; }
+.wt-pointer { position: absolute; top: 50%; left: 50%; z-index: 2;  width: 85px; height: 100px; margin: -50px 0 0 -42.5px; background: url('../img/turntable-pointer.png') no-repeat center center;}
+.wt-pointer:hover {background: url('../img/turntable-pointer-on.png') no-repeat center center;}
+.wt-result { display: none; }
+.wt-btn { display: inline-block;  width: 130px; height: 36px; line-height: 36px; text-align: center; color: #fff; background: #ffc919; text-decoration: none; }
+.wt-btn:hover { background:#fbd65e; }
+.wt-keep { margin-right: 70px;}
+.wt-lost { display: none; position: absolute; top: 270px; left: 50%; z-index: 101; width: 412px; height: 256px; margin:0 0 0 -206px;  background: #ffffff; border: 6px solid #b3adad; font-size: 16px;}
+.wt-lost-title { padding: 40px 0; text-align: center; color:#6d6261; font-size: 16px; }
+.wt-lost-info { color: #b3adad; text-align: center; width: 170px; line-height: 26px; margin: 0 auto 30px; }
+.wt-lost-actions { text-align: center; }
+.wt-lost-btn { display: inline-block; width: 136px; height: 36px; line-height: 36px; color: #fff; background: #e94e4e; text-align: center; text-decoration: none;}
+.wt-lost-btn:hover { background: #ec6868; }
+.wt-lost-no { margin-right: 44px; }
+
+.ppb-tlb4 { float:left; margin: 20px 0 0 30px; font-size: 14px; color:#b3adad; }
+.ppb-tlb4-txt4 { padding-left: 30px; background: url('../img/icon-wt.png') no-repeat left center; }
+.ppb-tlb4-txt4 span{ color: #e94e4e;  }
+.no-scroll { overflow: hidden }

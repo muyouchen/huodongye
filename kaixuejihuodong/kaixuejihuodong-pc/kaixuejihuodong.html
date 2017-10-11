@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>开学季活动pc</title>
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js" ></script>
+	<link rel="stylesheet" href="css/quan.css" />
+</head>
+<body >
+	<!--弹窗1-->
+	<div class="tan tan1" style="display:none; ">
+		<div class="tann" style="position:absolute;width:526px;height:455px;left:50%;top:50%; margin-left:-263px;margin-top:-227.5px;background: url(img/tan.png) center no-repeat;background-size:cover;">
+			<img class="guan1" src="img/guan1.png"/ style="width:35px;height:35px;cursor:pointer;position:absolute;right:30px;top:115px; " >
+			<div class="yanse4 size20" style="position:absolute;left:210px;top:190px; ">
+				用户名：<span>XXXXXX</span>
+			</div>
+			<div class="yanse4 size20 hanggao35" style="position:absolute;left:210px;top:237px; ">
+				我目前的累计年化投资金额:<br><span class="yanse5 size24 jiacu"><span class="size36">18000</span>元</span>
+			</div>
+			<div class="yanse4 size20 " style="position:absolute;left:210px;top:335px;line-height:21px;  ">
+				目前级别:
+				<p>
+					<span>出国读研</span>
+					<span class="size40" style="position:relative;top:-4px;left:-4px;  ">.</span>
+					<span class="yanse5 size20 jiacu" style="position:relative;left:-10px;  "><span>2200</span>元</span>
+				    <span style="position:relative;left:-12px;  ">奖励</span>
+				    <img src="img/chuguo.png" style="width:54px;height:54px;display:inline-block;position: absolute;left:230px;top:0px;     " />
+				    <!--其他对应图标-->
+				    <img src="img/chuzhon.png" style="width:54px;height:54px;display:inline-block;position: absolute;left:230px;top:0px;display:none;      " />
+				    <img src="img/daxue.png" style="width:54px;height:54px;display:inline-block;position: absolute;left:230px;top:0px;display:none;      " />
+				    <img src="img/xiaoxue.png" style="width:54px;height:54px;display:inline-block;position: absolute;left:230px;top:0px;display:none;      " />
+				    <img src="img/gaozhon.png" style="width:54px;height:54px;display:inline-block;position: absolute;left:230px;top:0px;display:none;      " />
+				</p>
+			</div>
+		</div>	
+	</div>
+	<!--计算器-->
+	<div class="jisuanqi" style="position:absolute;right:0px;top:2500px;height:242px;width:360px;z-index:10;display:none;    ">
+		<div class="jisuanqijianpan" style="width:224px;height:242px;position:absolute;left:34px;top:0px;background: url(img/jisuanqi.png) center no-repeat;background-size:cover;z-index:11;display:none;">
+			<img class="guan2" src="img/guan2.png"/ style="width:13px;height:12px;cursor:pointer;position:absolute;left:185px;top:7px; " >
+			<div style="height:59px;background: url(img/kuang2.png) center no-repeat;background-size:cover;position:absolute;top:32px;left:11px; width:191px;" class="yanse8 size14">
+				<span class="yanse8 size14" style="position:absolute;left:12px;top:5px;  ">计算结果：</span>
+				<span class="yanse9 size12" style="position:absolute;left:12px;top:20px;  "><span class="size30" class="jieguo">0</span>元</span>
+			</div>
+			
+			
+			<div style="height:25px;background: url(img/kuang1.png) center no-repeat;background-size:cover;position:absolute;top:108px;left:11px; width:191px;" class="yanse8 size14">
+				<input type="text"   style="height:25px;line-height:25px;border:none;background-color:transparent;position:absolute;top:0px;left:0px; width:176px;padding-left:15px;        " class="yanse8 size14 xinxi1">
+				<span style="position:absolute;left:15px;top:3px;  " class="moren1">请输入投资期限（天）</span>
+			</div>
+			<div style="height:25px;background: url(img/kuang1.png) center no-repeat;background-size:cover;position:absolute;top:143px;left:11px; width:191px;" class="yanse8 size14">
+				<input type="text"   style="height:25px;line-height:25px;border:none;background-color:transparent;position:absolute;top:0px;left:0px; width:176px;padding-left:15px;        " class="yanse8 size14 xinxi2">
+				<span style="position:absolute;left:15px;top:3px;  " class="moren2">请输入投资金额（元）</span>
+			</div>
+			<a class="size20 bai centerx jisuan jiacu" style="display:block;background-size:cover;height:51px;line-height:49px;width:191px;position:absolute;left:12px;top:180px; " href="javascript:;">
+						开始计算 
+			</a>
+		</div>
+		<img src="img/jisuanqibiaozhi.png" style="width:117px;height:115px;display:block;position: absolute;left:230px;top:70px;       " class="jisuanqibiaozhi shoxing" />
+
+	</div>
+
+	
+	
+	<div style="background: url(img/bei.jpg) center no-repeat;width:100%;height:4127px;background-size:cover;position:relative; " >
+    	<div style="background: url(img/kuai1.png) center no-repeat;width:1341px;height:1299px;background-size:cover;position:relative;margin:0 auto;top:830px; " >
+    		<div class="yanse3 size34 jiacu centerx" style="width:500px;margin:0 auto;position:relative;top:120px;   ">【抢】开学加息三重奏</div>
+    		<!--第一个灯泡-->
+    		<div class="deng1">
+    			<!--第一个灯泡状态-->
+    				<!--进行中状态-->
+    			<img src="img/deng1.png" style="width:200px;height:251px;display:block;position: absolute;left:194px;top:220px;display:none;      "  class="jinxin" />
+    				<!--未开始状态-->
+    			<img src="img/deng2.png" style="width:137px;height:219px;display:block;position: absolute;left:226px;top:250px;display:none;     " class="weikaishi"/>
+    				<!--结束状态-->
+    			<img src="img/deng3.png" style="width:151px;height:219px;display:block;position: absolute;left:214px;top:250px;    " class="jieshu" />
+    			<!--点击按钮-->
+    			<a class="size28 bai centerx niu jiacu bei1" style="display:block;background-size:cover;height:58px;width:162px;position:absolute;top:495px;left:215px " href="javascript:;">
+						9.1~9.7 
+				</a>
+				<!--黑板展示-->
+				<div class="heiban" style="display:none; ">
+					<img src="img/1chong.png" style="width:557px;height:101px;display:block;position: absolute;left:400px;top:725px;      "  class="zhanshi" />
+					<!--黑板展示状态-->
+						<!--进行中状态-->
+					<div class="zhanshijinxing" style="display:none; ">
+						<div style="position:absolute;width:569px;height:70px;left:400px;top:880px; background: url(img/jinxing.png) center no-repeat;background-size:cover;">
+							<span style="position:absolute;left:120px;top:33px;   " class="yanse7 size30"><span>173</span>天</span>
+							<span style="position:absolute;left:341px;top:33px;   " class="yanse7 size30"><span>8.7</span>%</span>
+							<span style="position:absolute;/*left:492px;*/top:33px;left:505px;   " class="yanse7 size30"><span>1</span>%</span>
+						</div>
+						<a class="qianggou " style="display:block;background-size:cover;position:absolute;top:963px;left:580px;width:176px;height:71px;    " href="javascript:;">	 
+						</a>
+					</div>
+						<!--未开始状态-->
+					<img src="img/weikaishi.png" style="width:242px;height:106px;display:block;position: absolute;left:550px;top:900px;display:none;      "  class="zhanshiweikaishi" />
+						<!--无标状态-->
+					<img src="img/wubiao.png" style="width:298px;height:100px;display:block;position: absolute;left:520px;top:880px;display:none;      "  class="zhanshiwubiao" />
+						<!--结束状态-->
+					<img src="img/jieshu.png" style="width:241px;height:106px;display:block;position: absolute;left:550px;top:900px;     "  class="zhanshijieshu" />
+				</div>
+    		</div>
+    		<!--第二个灯泡-->
+    		<div class="deng2">
+    			<!--第二个灯泡状态-->
+    				<!--进行中状态-->
+    			<img src="img/deng1.png" style="width:200px;height:251px;display:block;position: absolute;left:572px;top:215px;      "  class="jinxin" />
+    				<!--未开始状态-->
+    			<img src="img/deng2.png" style="width:137px;height:219px;display:block;position: absolute;left:603px;top:247px;display:none;     " class="weikaishi"/>
+    				<!--结束状态-->
+    			<img src="img/deng3.png" style="width:151px;height:219px;display:block;position: absolute;left:592px;top:250px;display:none;    " class="jieshu" />
+    			<!--点击按钮-->
+    			<a class="size28 bai centerx niu jiacu bei2" style="display:block;background-size:cover;height:58px;width:162px;position:absolute;top:495px;left:590px " href="javascript:;">
+						9.11~9.17 
+				</a>
+				<!--黑板展示-->
+				<div class="heiban" style=" ">
+					<img src="img/2chong.png" style="width:599px;height:101px;display:block;position: absolute;left:370px;top:725px;      "  class="zhanshi" />
+					<!--黑板展示状态-->
+						<!--进行中状态-->
+					<div class="zhanshijinxing" style=" ">
+						<div style="position:absolute;width:569px;height:70px;left:400px;top:880px; background: url(img/jinxing.png) center no-repeat;background-size:cover;">
+							<span style="position:absolute;left:120px;top:33px;   " class="yanse7 size30"><span>173</span>天</span>
+							<span style="position:absolute;left:341px;top:33px;   " class="yanse7 size30"><span>8.7</span>%</span>
+							<span style="position:absolute;left:492px;top:33px;   " class="yanse7 size30"><span>1.2</span>%</span>
+						</div>
+						<a class="qianggou " style="display:block;background-size:cover;position:absolute;top:963px;left:580px;width:176px;height:71px;    " href="javascript:;">	 
+						</a>
+					</div>
+						<!--未开始状态-->
+					<img src="img/weikaishi.png" style="width:242px;height:106px;display:block;position: absolute;left:550px;top:900px;display:none;      "  class="zhanshiweikaishi" />
+						<!--无标状态-->
+					<img src="img/wubiao.png" style="width:298px;height:100px;display:block;position: absolute;left:520px;top:880px;display:none;      "  class="zhanshiwubiao" />
+						<!--结束状态-->
+					<img src="img/jieshu.png" style="width:241px;height:106px;display:block;position: absolute;left:550px;top:900px;display:none;     "  class="zhanshijieshu" />
+				</div>
+    		</div>
+    		<!--第三个灯泡-->
+    		<div class="deng3">
+    			<!--第三个灯泡状态-->
+    				<!--进行中状态-->
+    			<img src="img/deng1.png" style="width:200px;height:251px;display:block;position: absolute;left:946px;top:217px;display:none;     "  class="jinxin" />
+    				<!--未开始状态-->
+    			<img src="img/deng2.png" style="width:137px;height:219px;display:block;position: absolute;left:977px;top:250px;     " class="weikaishi"/>
+    				<!--结束状态-->
+    			<img src="img/deng3.png" style="width:151px;height:219px;display:block;position: absolute;left:965px;top:250px;display:none;    " class="jieshu" />
+    			<!--点击按钮-->
+    			<a class="size28 bai centerx niu jiacu bei1" style="display:block;background-size:cover;height:58px;width:162px;position:absolute;top:495px;left:965px " href="javascript:;">
+						9.20~9.26 
+				</a>
+				<!--黑板展示-->
+				<div class="heiban" style="display:none;">
+					<img src="img/3chong.png" style="width:599px;height:101px;display:block;position: absolute;left:370px;top:725px;      "  class="zhanshi" />
+					<!--黑板展示状态-->
+						<!--进行中状态-->
+					<div class="zhanshijinxing" style="display:none; ">
+						<div style="position:absolute;width:569px;height:70px;left:400px;top:880px; background: url(img/jinxing.png) center no-repeat;background-size:cover;">
+							<span style="position:absolute;left:120px;top:33px;   " class="yanse7 size30"><span>173</span>天</span>
+							<span style="position:absolute;left:341px;top:33px;   " class="yanse7 size30"><span>8.7</span>%</span>
+							<span style="position:absolute;left:492px;top:33px;   " class="yanse7 size30"><span>1.5</span>%</span>
+						</div>
+						<a class="qianggou " style="display:block;background-size:cover;position:absolute;top:963px;left:580px;width:176px;height:71px;    " href="javascript:;">	 
+						</a>
+					</div>
+						<!--未开始状态-->
+					<img src="img/weikaishi.png" style="width:242px;height:106px;display:block;position: absolute;left:550px;top:900px;      "  class="zhanshiweikaishi" />
+						<!--无标状态-->
+					<img src="img/wubiao.png" style="width:298px;height:100px;display:block;position: absolute;left:520px;top:880px;display:none;      "  class="zhanshiwubiao" />
+						<!--结束状态-->
+					<img src="img/jieshu.png" style="width:241px;height:106px;display:block;position: absolute;left:550px;top:900px;display:none;     "  class="zhanshijieshu" />
+				</div>
+    		</div>
+	    </div>
+	    <div style="background: url(img/kuai2.png) center no-repeat;width:1341px;height:1164px;background-size:cover;position:relative;margin:0 auto;top:755px;" >
+    		<div class="yanse2 size34 jiacu centerx" style="width:500px;margin:0 auto;position:relative;top:120px;   ">【享】勇闯大学，多投多得</div>
+    		<div class="yanse2 size18 jiacu centerx" style="width:1000px;margin:0 auto;position:relative;top:150px;   ">活动期间，完成相应任务（累计年化投资额达到一定金额），将获得对应级别的无门槛现金券</div>
+    		<a class="size18 bai centerx tou jiacu" style="display:block;background-size:cover;height:62px;line-height:60px;width:264px;position:relative;margin:0 auto;top:220px; " href="javascript:;">
+						查看我的累计年化投资额 
+			</a>
+			<div class="yanse2 size18 jiacu centerx" style="width:1000px;margin:0 auto;position:relative;top:820px;   ">
+			温馨提示：<span class="yanse6">如有用户累计年化投资额15万元及以上，可向客服预约VIP博士奖励！</span>
+			</div>
+	    </div>
+	    <div style="background: url(img/kuai3.png) center no-repeat;width:1341px;height:709px;background-size:cover;position:relative;margin:0 auto;top:685px; " >
+    		<div class="yanse1 size34 jiacu centerx" style="width:500px;margin:0 auto;position:relative;top:130px;   ">活动规则</div>
+    		<div class="yanse1 size18" style="width:1100px;margin:0 auto;position:relative;top:210px;left: 45px;   ">
+    			<p style="margin-bottom: 20px">1、活动时间：2017/9/1 10:00:00-2017/9/26 23:59:59；</p>
+    			<p style="margin-bottom: 20px">2、活动期间，用户完成相应的任务（累计年化投资额达到一定金额）即可获得相应的无门槛现金券；其中，任务仅限投资票票<br><span style="margin-left:30px; ">宝产品（不含新手标、会员标）有效；</span></p>
+    			<p style="margin-bottom: 20px">3、年化投资额=投资票票宝金额*投资期限/360天；</p>
+    			<p style="margin-bottom: 20px">4、现金券奖励将在活动结束15个工作日内发放至平台用户账户中，用户可在个人中心-我的奖券中的红包列表中查看使用详情；</p>
+    			<p style="margin-bottom: 20px">5、赠送的现金券，1元起投，任意票票宝标的复投后可提现；</p>
+    			<p>6、所有奖励由票据宝平台发放，本活动最终解释权归票据宝所有，如有疑问请拨打客服热线400-188-9138。</p>
+    		</div>
+	    </div>
+	</div>
+	
+
+	<!--右侧辅助功能浮标-->
+	<div class="r-float-btn">
+		
+		<div class="r-f-btni r-f-topbtno" style="display: none;">
+			<a href="javascript:scroll(0,0)" class="r-f-topbtn"></a>	
+		</div>
+	</div>
+
+	
+</body>
+<script type="text/javascript">
+	$(function() {
+		$(window).scroll(function () {
+			if ($(window).scrollTop()>1000) {	
+				$('.r-f-topbtno').show();						
+			}else{
+				$('.r-f-topbtno').hide();
+			}
+	    });
+		$(window).scroll(function () {
+			if ($(window).scrollTop()>1700) {	
+				$('.jisuanqi').show();						
+			}else{
+				$('.jisuanqi').hide();
+			}
+	    });
+		$(".tou").click(function(){
+	    	$(".tan1").show();
+			$("body").addClass("gundong");			
+		});		
+		$(".guan1").click(function(){
+			$(".tan1").hide();
+			$("body").removeClass("gundong");
+		});	
+		$(".niu").click(function(){
+			$(".niu").removeClass("bei2");
+			$(".niu").addClass("bei1");
+			$(this).removeClass("bei1");
+	    	$(this).addClass("bei2");
+	    	$(".heiban").hide();
+			$(this).parent().find(".heiban").show();			
+		});	
+		$(".jisuanqibiaozhi").click(function(){
+			$(".jisuanqijianpan").toggle();		
+		});
+		$(".guan2").click(function(){
+			$('.jisuanqijianpan').hide();
+		});
+		$(".moren1").click(function(){
+			$(this).hide();
+			$(".xinxi1").focus();
+			var value = $(".xinxi2").val(); 
+            value = $.trim(value);
+	        if (value == '') {
+	           $(".moren2").show(); 
+	        };
+		});	
+		$(".xinxi1").focus(function(){
+			$(".moren1").hide();
+			var value = $(".xinxi2").val(); 
+            value = $.trim(value);
+	        if (value == '') {
+	           $(".moren2").show(); 
+	        };	
+		});	
+		$(".moren2").click(function(){
+			$(this).hide();
+			$(".xinxi2").focus();
+			var value1 = $(".xinxi1").val(); 
+            value1 = $.trim(value1);
+	        if (value1 == '') {
+	           $(".moren1").show(); 
+	        };
+		});	
+		$(".xinxi2").focus(function(){
+			$(".moren2").hide();	
+			var value1 = $(".xinxi1").val(); 
+            value1 = $.trim(value1);
+	        if (value1 == '') {
+	           $(".moren1").show(); 
+	        };
+		});	
+	});
+</script>
+</html>

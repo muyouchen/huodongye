@@ -1,0 +1,147 @@
+.fl{float:left;}
+.fr{float:right;}
+.cb{clear:both;}
+.dep-g-box{}
+.dep-g-banner{width:100%;height:265px;background:url(../img/dep-g-banner.jpg) no-repeat center;}
+.dep-navo{position:absolute;top:371px;border-bottom:1px solid #f2eeeb;width:100%;height:118px;background:#fbfaf8;}
+.dep-nav{width:1200px;margin:0 auto;text-align:center;}
+.dep-nav li{cursor:pointer;position:relative;width:200px;height:118px;float:left;list-style:none;}
+.dep-qh-line{display:none;width:200px;height:2px;background:#ffab5a;position:absolute;bottom:-1px;left:0;}
+.dep-g-ntxt1{font-size:14px;color:#6d6161;}
+.dep-nav .dep-g-icon{margin:30px auto 10px auto;display:block;height:30px;}
+.dep-nav-qh .dep-g-ntxt1{color:#ff9630;}
+.dep-nav-qh .dep-qh-line{display:block;}
+.dep-nav-qh{background:#FFFFFF;}
+.dep-g-icon1{width:36px;background:url(../img/dep-g-icon1.png) no-repeat;}
+.dep-g-icon2{width:40px;background:url(../img/dep-g-icon2.png) no-repeat;}
+.dep-g-icon3{width:50px;background:url(../img/dep-g-icon3.png) no-repeat;}
+.dep-g-icon4{width:36px;background:url(../img/dep-g-icon4.png) no-repeat;}
+.dep-g-icon5{width:30px;background:url(../img/dep-g-icon5.png) no-repeat;}
+.dep-g-icon6{width:34px;background:url(../img/dep-g-icon6.png) no-repeat;}
+.dep-nav-qh .dep-g-icon1{background:url(../img/dep-g-icon1-h.png) no-repeat;}
+.dep-nav-qh .dep-g-icon2{background:url(../img/dep-g-icon2-h.png) no-repeat;}
+.dep-nav-qh .dep-g-icon3{background:url(../img/dep-g-icon3-h.png) no-repeat;}
+.dep-nav-qh .dep-g-icon4{background:url(../img/dep-g-icon4-h.png) no-repeat;}
+.dep-nav-qh .dep-g-icon5{background:url(../img/dep-g-icon5-h.png) no-repeat;}
+.dep-nav-qh .dep-g-icon6{background:url(../img/dep-g-icon6-h.png) no-repeat;}
+
+.dep-g-contento{padding-top:180px;}
+.dep-g-content li{width:1200px;margin:0 auto;list-style:none;}
+
+/*详情*/
+.dep-g-details{position:relative;margin:0 auto;width:1200px;height:800px;background:url(../img/dep-g-qh-bg.png) no-repeat;}
+.dep-g-qhbtn{padding-top:70px;overflow:hidden;width:906px;margin:0 auto;position:relative;}
+.dep-g-qhbtn2{padding-top:70px;overflow:hidden;width:820px;margin:0 auto;position:relative;}
+.dep-g-qhbtn3{padding-top:70px;overflow:hidden;width:705px;margin:0 auto;position:relative;}
+.dep-g-qhbtn4{padding-top:70px;overflow:hidden;width:503px;margin:0 auto;position:relative;}
+.dep-g-qhbtn5{padding-top:70px;overflow:hidden;width:503px;margin:0 auto;position:relative;}
+.dep-g-qhbtn6{padding-top:70px;overflow:hidden;width:503px;margin:0 auto;position:relative;}
+
+
+.dep-g-qhbtn li{cursor:pointer;position:relative;width:98px;float:left;text-align:center;}
+.dep-g-qhbtn2 li{cursor:pointer;position:relative;width:205px;float:left;text-align:center;}
+.dep-g-qhbtn3 li{cursor:pointer;position:relative;width:98px;float:left;text-align:center;}
+.dep-g-qhbtn4 li{cursor:pointer;position:relative;width:98px;float:left;text-align:center;}
+.dep-g-qhbtn5 li{cursor:pointer;position:relative;width:98px;float:left;text-align:center;}
+.dep-g-qhbtn6 li{cursor:pointer;position:relative;width:98px;float:left;text-align:center;}
+
+
+.dep-g-qhbtn li:first-child,
+.dep-g-qhbtn2 li:first-child,
+.dep-g-qhbtn3 li:first-child,
+.dep-g-qhbtn4 li:first-child,
+.dep-g-qhbtn5 li:first-child,
+.dep-g-qhbtn6 li:first-child
+{margin-left:0;}
+
+.dep-g-qhbtn li,.dep-g-qhbtn3 li,.dep-g-qhbtn4 li,.dep-g-qhbtn5 li,.dep-g-qhbtn6 li{margin-left:104px;}
+.dep-g-qhbtn2 li{margin-left:-4px;}
+
+.dep-g-qhbtn li:last-child .dep-g-quan:after,
+.dep-g-qhbtn2 li:last-child .dep-g-quan:after,
+.dep-g-qhbtn3 li:last-child .dep-g-quan:after,
+.dep-g-qhbtn4 li:last-child .dep-g-quan:after,
+.dep-g-qhbtn5 li:last-child .dep-g-quan:after,
+.dep-g-qhbtn6 li:last-child .dep-g-quan:after
+{content:none;}
+
+.dep-g-qhbtn p,.dep-g-qhbtn2 p,.dep-g-qhbtn3 p,.dep-g-qhbtn4 p,.dep-g-qhbtn5 p,.dep-g-qhbtn6 p{color:#ffead7;font-size:14px;}
+
+.dep-g-quan{width:20px;height:20px;display:inline-block;background: url(../img/dep-g-quan.png) no-repeat;}
+.dep-g-quan:after{content:'';width:180px;height:2px;background:#ffd5ab;position:absolute;left:60px;top:9px;}
+.dep-g-qhbtn2 .dep-g-quan:after{content:'';width:180px;height:2px;background:#ffd5ab;position:absolute;left:113px;top:9px;}
+
+.dep-g-quan:hover{background:url(../img/dep-g-quan-h.png) no-repeat;}
+.dep-g-cur .dep-g-quan{background:url(../img/dep-g-quan-h.png) no-repeat;}
+.dep-g-cur p{color:#FFFFFF;}
+.dep-g-contenti{width:950px;height:625px;position:relative;left:50%;margin-left:-475px;top:30px;}
+.dep-g-ctxt1{font-size:18px;color:#ffffff;text-align:center;padding-top:30px;line-height:30px;}
+.dep-g-ctxt2{font-size:14px;color:#ffead7;text-align:center;line-height:30px;}
+.dep-g-contenti li{width:950px;float:left;}
+.dep-prev a,.dep-prev2 a,.dep-prev3 a,.dep-prev4 a,.dep-prev5 a,.dep-prev6 a{position:absolute;top:50%;margin-top:-19px;left:60px;width:22px;height:38px;background:url(../img/dep-arrow-left.png) no-repeat;display:block;}
+.dep-next a,.dep-next2 a,.dep-next3 a,.dep-next4 a,.dep-next5 a,.dep-next6 a{position:absolute;top:50%;margin-top:-19px;right:60px;width:22px;height:38px;background:url(../img/dep-arrow-right.png) no-repeat;display:block;}
+/*.dep-g-contenti ul{width:4750px;}*/
+/*常见问题*/
+.dep-g-qa{width:1200px;margin:0 auto;padding:100px 0;}
+.dep-g-qatxt1{font-size:28px;color:#3a3433;}
+.dep-g-qai{padding-top:55px;font-size:14px;line-height:30px;}
+.dep-g-q{color:#6d6261;}
+.dep-g-a{color:#b3adad;padding-left:2em;text-indent:-2em;}
+.dep-g-ai{padding-left:1em;text-indent:-1em;}
+.dep-g-a a{color:#e94d4e;text-decoration:none;}
+/*弹窗*/
+.dep-g-mask{width:100%;display: none;height: 100%;position: fixed;_position: absolute;background: #1a1a1a;filter: alpha(opacity=65);-moz-opacity:0.65;opacity:0.65;z-index: 100;top: 0;}
+/*三方支付支持银行列表*/
+.pay-bk-listo .dep-g-mask,.pay-bk-listo .pay-bk-list{display:block;}
+.pay-bk-list{display:none;position:fixed;z-index:101;top:50%;left:50%;margin-left:-344px;margin-top:-297px;width:688px;height:595px;background:#ffffff;border:6px solid #b3adad;}
+.pay-bk-txt1{width:688px;height:40px;background:#eeeeee;line-height:40px;font-size:16px;color:#3a3433;}
+.ppb-ddclosebtn{display:block;float:right;width:21px;height:21px;background:url(../img/ppb-closeicon.png) no-repeat;}
+.ppb-ddclosebtno{padding:8px;}
+.pay-bk-txt1 p{padding-left: 10px;}
+.pay-bktable{overflow-y:scroll;height:500px;}
+table.pay-bktablei{border:1px solid #e6e6e6;border-collapse:collapse;font-size:14px;color:#42464e;text-align: center;/*margin: 0 57.5px;*/}
+table.pay-bktablei tr,table.m-c-czxztablei td{border:1px solid #e6e6e6;}
+.pay-bktablei2{background:#ffffff;height:35px;}
+.pay-bktablei1{background:#ffffff;height:55px;}
+.pay-bk-ltxt1{padding-left:10px;font-size:14px;color:#b3adad;line-height:55px;height:55px;}
+.pay-bk-ltxt1 span{color:#ff9630;}
+
+/*实名认证指引*/
+.real-nameo .dep-g-mask,.real-nameo .real-name{display:block;}
+.real-name{display:none;position:fixed;z-index:101;top:106px;left:50%;margin-left:-540px;width:1080px;height:700px;background:#ffffff;}
+.real-name-t{position:absolute;top:0;left:0;width:100%;height:200px;background:#ffab46;}
+.r-n-txt1{padding-bottom:60px;text-align:center;font-size:24px;color:#FFFFFF;padding-top:60px;}
+.close-btn{display:block;width:23px;height:23px;background:url(../img/close-btn-w.png) no-repeat;}
+.close-btno{position:absolute;right:8px;top:8px;}
+
+.r-n-show{width:968px;overflow:hidden;position:relative;height:518px;float:left}
+.r-n-cont{width:1938px;position:absolute;left:0px;top:0px;}
+.r-n-cont ul{float:left;text-align:center;line-height:50px;}
+.r-n-cont ul li{width:968px;height:518px;float:left;list-style:none;}
+.r-n-qhout{width:968px;margin:0 auto;}
+.r-n-prev a{display:block;width:22px;height:38px;background:url(../img/arrow-left-orange.png) no-repeat;}
+.r-n-prev{position:absolute;left:25px;top:405px;}
+.r-n-next a{display:block;width:22px;height:38px;background:url(../img/arrow-right-orange.png) no-repeat;}
+.r-n-next{position:absolute;right:25px;top:405px;}
+
+.pay-bktable::-webkit-scrollbar {
+    width:0px;
+    height:366px;
+}
+.pay-bktable::-webkit-scrollbar-track     {
+    background:#FFFFFF;
+    border-radius:5px;
+}
+.pay-bktable::-webkit-scrollbar-track-piece {
+    background:;
+}
+.pay-bktable::-webkit-scrollbar-thumb{
+    background:#FFFFFF;
+    border-radius:5px;
+}
+.pay-bktable::-webkit-scrollbar-corner {
+    background:#FFFFFF;
+}
+.pay-bktable::-webkit-scrollbar-resizer{
+    background:#FFFFFF;
+}

@@ -1,0 +1,916 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        <title>票据宝官网--金融票据，你我分享；票据理财--高安全的网上理财平台</title>
+		<meta name="keywords" content="票据宝,票据,票据理财,银行承兑汇票,网上投资,网上理财,投资理财">
+		<meta name="description" content="票据宝隶属于深圳市票据宝金融服务有限公司，是银行承兑汇票散户投资需求平台，由银行承担验票、保管、到期托收并结算的责任，1元起投，高收益，高安全。金融票据，你我分享。">
+		<link rel="stylesheet" href="css/head5.0.css" />
+        <link rel="stylesheet" href="css/global5.0.css" />
+      	<script type="text/javascript" src="js/jquery-1.11.1.min.js" ></script>
+		<link rel="stylesheet" href="css/dep-guidance.css" />
+	
+	</head>
+	<body>
+		<!--三方支付支持银行列表  加类  pay-bk-listo  实名认证指引 real-nameo-->
+		<div class="box pay-bk-listo">
+		<!--头部-->
+		<div class="top" id="float_banner">
+		  <div class="top-a" >
+		
+		    <div class="top-aa ">
+		      <div style="float: left;" >
+		        <span style="color:#777777; font-size:12px; padding-top:6px;">理财热线：</span>
+		        <span style="color:#363535; font-size:18px;">400-188-9138</span>
+		      </div>
+		      <div style="float: right;" >
+		
+		         <div id="tttt" style="display:inline-block;*display:inline;*zoom:1;"></div>
+		        <span class="app" style="padding:0 17px; border-right:1px solid #777777;position:relative;" onmouseout="this.className = 'app';" onmouseover="this.className = 'app on';">
+		        	<a href="https://www.pj.com/mobilePublicity.shtml">APP下载</a>
+		        	<div class="qr-code-hover"><img src="https://www.pj.com/images/activity-page-qr1-hover.png"/></div>
+		        </span>
+		        <span style="padding:0 17px; border-right:1px solid #777777;">
+		        	<a href="http://www.pj.com/news/" id="topMediaCenter">媒体中心</a>
+		        </span>
+		        <span style="padding:0 17px; border-right:1px solid #777777;">
+		        	<a href="http://bbs.pj.com" target="_blank" id="topCommunity">社区</a>
+		        </span>
+		        <span style="padding:0 17px; ">
+		        	<a href="javascript:;" target="_blank" style="color:#e94e4e;">进入普通版</a>
+		        </span>
+		        </div>
+		
+		    </div>
+		
+		    <div class="top-b box-shadow">
+		      <div class="nav-box">
+		        <a  href='http://www.pj.com/' class="nav-box-left">
+		          <img src="images/logo.jpg" alt="" id="topLogin"/>
+		        </a>
+		        <a  href='javascript:;' class="nav-box-left cg-qh-btn">
+		          <img src="images/cg-qhicon.png"/>
+		        </a>
+		        <div id='cssmenu' class="nav-box-right">
+		          <div id="menu-line" style="width: 117px; left: 0px;"></div>
+		          <div id="menu-button">Menu</div>
+		          <ul>
+		            <li id="index-li" class='has-sub-hove' style="width:117px"><a style="width:117px" href='https://www.pj.com/'>&nbsp;&nbsp;&nbsp;&nbsp;首页</a></li>
+		            <li id="finance-li" class='has-sub-hove'><a style="cursor:default;text-align:center; width:117px;*padding-left:0px; *padding-right:0px;" >我要理财</a>
+		              <ul style="">
+		                <li style="height:7.2px;"></li>
+		                <li class='has-sub'><a style="*width:77px;padding-left:40px;" href='https://www.pj.com/openFundInvestDetailInit.shtml' id="topTTB">天天宝</a> </li>
+		                <li class='has-sub'><a style="*width:77px;padding-left:40px;" href='javascript:;'>天天宝+</a> </li>
+		                <li class='has-sub'><a style="*width:77px;padding-left:40px;" href='https://www.pj.com/finance.shtml' id="topPPB">票票宝</a> </li>			                
+		                <li class='has-sub ' ><a style="*width:77px;padding-left:40px;" href='https://www.pj.com/hbbFinance.shtml' id="topWZB">玩赚宝</a> </li>
+		                <li class='has-sub dd-radius' ><a style="*width:77px;*height:21px;padding-left:30px;" href='https://www.pj.com/activity3.shtml'>周二会员日</a> </li>
+		              </ul>
+		            </li>
+		            <li style="width:17px; display:block; height:70px;"></li>
+		            <li id="guid-li" class='has-sub-hove'><a href='https://www.pj.com/helpcenter-10.shtml' rel="nofollow">新手理财</a></li>
+		            <li style="width:20px; display:block; height:70px;"></li>
+		            <li id="aboutus-li" class='has-sub-hove'><a href='aboutUsInit3.do' rel="nofollow">关于我们</a></li>
+		            <li style="width:10px; display:block; height:70px;"></li>
+		
+		            <!--已经登录-->
+		            <li style="width:135px; z-index:100;" id="user_hover" class="has-sub-hove ">
+		              <a style="height:69px;*height:26px; z-index:-10; border-radius:7px 7px 0 0;cursor:default;">
+		                <span class="user_img"></span>
+		                <div  style=" margin-top:-45px;padding-left:20px;">我的账户</div>
+		              </a>
+		              <!--未登录加类user_no-->
+		              <ul class="" style="width:135px">
+		                <li class='has-sub user_center' style="width:135px">
+		                  <a href="https://www.pj.com/home4.shtml" style="width:135px;">
+		                    <span class="" id="top_1">个人中心</span>
+		                  </a>
+		                </li>
+		                <li class='has-sub user_center'  style="width:135px">
+		                  <a href="https://www.pj.com/rechargeInit3.shtml" style="width:135px" >
+		                    <span class="" id="top_2">立即充值</span>
+		                  </a>
+		                </li>
+		
+		                <li class='has-sub dd-radius user_center' style="width:135px" >
+		                  <a href="https://www.pj.com/tianTianBaoInit4.shtml" style="width:135px" >
+		                    <span class="" id="top_3">我的投资</span>
+		                  </a>
+		                </li>
+		              </ul>
+		            </li>
+		
+		            <!--未登录-->
+		
+		          </ul>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+		</div>
+		<!--头部结束-->
+		<!--存管指导开始-->
+		<div class="dep-g-box">
+			<div class="dep-g-banner"></div>	
+			<!--导航-->
+			<div class="dep-navo">
+				<div class="dep-nav">
+					<ul>
+						<li class="dep-nav-qh">
+							<i class="dep-g-icon dep-g-icon1"></i>
+							<p class="dep-g-ntxt1">开通E账户</p>
+							<span class="dep-qh-line"></span>
+						</li>
+						<li class="">
+							<i class="dep-g-icon dep-g-icon2"></i>
+							<p class="dep-g-ntxt1">绑定银行卡</p>
+							<span class="dep-qh-line"></span>
+						</li>
+						<li class="">
+							<i class="dep-g-icon dep-g-icon3"></i>
+							<p class="dep-g-ntxt1">充值</p>
+							<span class="dep-qh-line"></span>
+						</li>
+						<li class="">
+							<i class="dep-g-icon dep-g-icon4"></i>
+							<p class="dep-g-ntxt1">投标</p>
+							<span class="dep-qh-line"></span>
+						</li>
+						<li class="">
+							<i class="dep-g-icon dep-g-icon5"></i>
+							<p class="dep-g-ntxt1">快捷投标</p>
+							<span class="dep-qh-line"></span>
+						</li>
+						<li class="">
+							<i class="dep-g-icon dep-g-icon6"></i>
+							<p class="dep-g-ntxt1">提现</p>
+							<span class="dep-qh-line"></span>
+						</li>
+					</ul>	
+				</div>	
+			</div>
+			<!--切换的内容-->
+			<div class="dep-g-contento">
+				<ul class="dep-g-content">
+					<!--1开通E账户-->
+					<li class="dep-d-bli">
+						<!--详情-->
+						<div class="dep-g-details">
+							<!--详情切换小按钮-->
+							<ul class="dep-g-qhbtn">
+								<li class="dep-g-cur">
+									<i class="dep-g-quan"></i>								
+									<p class="cb">1.点击开通</p>
+								</li>
+								<li>
+									<i class="dep-g-quan"></i>								
+									<p class="cb">2.信息录入</p>
+								</li>
+								<li>
+									<i class="dep-g-quan"></i>								
+									<p class="cb">3.安装控件</p>
+								</li>
+								<li>
+									<i class="dep-g-quan"></i>								
+									<p class="cb">4.设置存管密码</p>
+								</li>
+								<li>
+									<i class="dep-g-quan"></i>								
+									<p class="cb">5.开户成功</p>
+								</li>
+							</ul>
+							<!--切换的内容-->
+							<div class="dep-g-contenti"  id="dep-d-d1">
+								<ul>
+									<li class="dep-g-contentii">
+										<img src="img/dep-g-e1.png">
+										<div class="dep-g-ctxt1">进入“我的账户--账户设置--我的E账户”点击“立即开通”</div>
+									</li>
+									<li class="dep-g-contentii">
+										<img src="img/dep-g-e2.png">
+										<div class="dep-g-ctxt1">跳转至华兴银行页面，填写个人信息完成实名认证。</div>
+										<div class="dep-g-ctxt2">温馨提示：已在票据宝平台实名认证过的用户，真实姓名和身份证系统为您默认填写。</div>
+									</li>
+									<li class="dep-g-contentii">
+										<img src="img/dep-g-e3.png">
+										<div class="dep-g-ctxt1">按照网页提示安装银行密码控件，安装成功后点击“运行”→“一键修复”，修复后重新打开网页。</div>	
+									</li>
+									<li class="dep-g-contentii">
+										<img src="img/dep-g-e4.png">
+										<div class="dep-g-ctxt1">账户关联页面设置登陆密码、交易密码。输入手机动态码，点击开户。</div>	
+									</li>
+									<li class="dep-g-contentii">
+										<img src="img/dep-g-e5.png">
+										<div class="dep-g-ctxt1">户成功后直接点击绑卡激活。</div>	
+									</li>
+								</ul>	
+							</div>
+							<!--左右切换按钮-->
+							<div class="dep-prev"><a href="javascript:;"></a></div>
+							<div class="dep-next"><a href="javascript:;"></a></div>
+						</div>	
+						<!--常见问题-->
+						<div class="dep-g-qa">
+							<div class="dep-g-qatxt1">常见问题</div>
+							<div class="dep-g-qai">
+								<div class="dep-g-q">Q：什么是银行存管？</div>	
+								<div class="dep-g-a">A：“资金存管”是指银行根据投资者在票据宝平台上的自主操作所产生的信息及指令，实现客户资金的往来清算，票据宝平台只承担信息中介角色，投资者的资金、平台运营资金、项目资金都隔离开，进行分账管理。</div>	
+							</div>
+							<div class="dep-g-qai">
+								<div class="dep-g-q">Q：什么是华兴银行E账户？为什么要开通？</div>	
+								<div class="dep-g-a">A：票据宝由广东华兴银行进行资金存管。华兴银行E账户是用户在华兴银行开设的独立存管账户，开通E账户，将实现用户资金与平台运营资金的全面隔离。用户的资金从交易之初就在银行体系内运转，有效地避免了被平台任意挪用的风险。</div>	
+							</div>
+							<div class="dep-g-qai">
+								<div class="dep-g-q">Q：华兴银行E账户开户失败的原因有哪些？</div>	
+								<div class="dep-g-a">
+									A：首先，请您检查以下事项是否正确：<br>
+								    <div class="dep-g-ai">(1)浏览器使用错误。由于华兴银行安装环境要求，浏览器仅支持IE（含IE8、9、10）浏览器、IE内核浏览器、Firefox火狐浏览器；操作系统仅支持Windows XP、Windows Vista、Windows7、Windows8。如违反上述操作，将更换浏览器。</div>
+								    (2)注册资料填写有误。身份信息填写必须真实有效，与投资人身份信息一致。<br>
+								    (3)绑定的银行卡为信用卡。目前，华兴银行E账户仅支持15家指定商业银行借记卡绑定。<br>
+								    (4)银行卡身份证名字信息跟在票据宝实名认证身份证名字信息不一致。<br>
+								    (5)银行数据传输异常，需要关闭当前银行页面，重新进入票据宝进行操作。<br>
+								    (6)手机号在华兴银行已被绑定。<br>
+								          如非上述原因，请联系在线客服或拨打客服热线400-188-9138。
+								</div>	
+							</div>
+							<div class="dep-g-qai">
+								<div class="dep-g-q">Q：为什么无法设置密码？</div>	
+								<div class="dep-g-a">
+									A：(1)检查浏览器是否使用正确。<br>							
+									(2)需根据网页提示下载并安装银行密码控件，安装成功后点击“运行“，在弹出的信息中点击”一键修复“，修复成功后刷新页面即可。</div>	
+							</div>
+							<div class="dep-g-qai">
+								<div class="dep-g-q">Q：华兴银行E账户“交易密码”与“登录密码如何设置？与票据宝登录密码和交易密码分别有什么不同？</div>	
+								<div class="dep-g-a">
+									A：在华兴页面设置的“登录密码”与“交易密码”需满足以下条件：登录密码为6~16位数，需同时包含数字、字母、符号中任意两种（含）以上组合，交易密码为6位数纯数字。
+									华兴银行登录密码，用于通过登录华兴银行E账户。<br>
+									华兴银行交易密码，在票据宝的充值、投资、提现等资金交易中，将会跳转到华兴银行页面，输入该交易密码可发出资金流转指令。<br>
+									票据宝登录密码，用于登录票据宝账户。<br>
+									票据宝交易密码，在涉及到票据宝账户设置、忘记密码时于票据宝页面中使用。<br>
+								</div>	
+							</div>
+						</div>
+					</li>
+					<!--2绑定银行卡-->
+					<li class="dep-d-bli" style="display:none;">
+						<!--详情-->
+						<div class="dep-g-details">
+							<!--详情切换小按钮-->
+							<ul class="dep-g-qhbtn2">
+								<li class="dep-g-cur">
+									<i class="dep-g-quan"></i>								
+									<p class="cb">1.绑卡激活</p>
+								</li>
+								<li>
+									<i class="dep-g-quan"></i>								
+									<p class="cb">2.他行卡绑定（可选）</p>
+								</li>
+								<li>
+									<i class="dep-g-quan"></i>								
+									<p class="cb">3.他行卡信息验证绑定（可选）</p>
+								</li>
+								<li>
+									<i class="dep-g-quan"></i>								
+									<p class="cb">4.绑卡成功</p>
+								</li>						
+							</ul>
+							<!--切换的内容-->
+							<div class="dep-g-contenti"  id="dep-d-d2">
+								<ul>
+									<li class="dep-g-contentii">
+										<img src="img/dep-g-yhk1.png">
+										<div class="dep-g-ctxt1">开户成功后直接点击绑卡激活。</div>
+									</li>
+									<li class="dep-g-contentii">
+										<img src="img/dep-g-yhk2.png">
+										<div class="dep-g-ctxt1">有三种绑卡方式，如没有办理过华兴实物卡，建议选择他行卡第三方绑定，填写相关信息，点击确认。</div>						
+									</li>
+									<li class="dep-g-contentii">
+										<img src="img/dep-g-yhk3.png">
+										<div class="dep-g-ctxt1">如选择他行卡信息验证绑定，填写相关信息，同时需填写约定金额（可填写10元），点击确认，然后由绑定卡向E账户转入约定金额。</div>	
+									</li>
+									<li class="dep-g-contentii">
+										<img src="img/dep-g-yhk4.png">
+										<div class="dep-g-ctxt1">绑卡成功。</div>	
+									</li>				
+								</ul>	
+							</div>
+							<!--左右切换按钮-->
+							<div class="dep-prev2"><a href="javascript:;"></a></div>
+							<div class="dep-next2"><a href="javascript:;"></a></div>
+						</div>	
+						<!--常见问题-->
+						<div class="dep-g-qa">
+							<div class="dep-g-qatxt1">常见问题</div>
+							<div class="dep-g-qai">
+								<div class="dep-g-q">Q：开户时忘了绑卡，现在可以通过什么渠道进行绑卡？</div>	
+								<div class="dep-g-a">A：可通过账户设置-我的E账户-修改，点击绑定银行卡，根据指引步骤进行绑卡。<br>或直接登录<a href="javascript:;">华兴银行E账户</a>，进行绑卡。</div>	
+							</div>
+							<div class="dep-g-qai">
+								<div class="dep-g-q">Q：绑定银行卡需要注意哪些事项？</div>	
+								<div class="dep-g-a">
+									A：(1)华兴银行E账户只能绑定一张银行卡<br>
+									(2)只能绑定身份认证下的同名借记卡<br>							
+								    <div class="dep-g-ai">(3)绑卡时需留意该银行卡是否在支持的范围内，否则将影响充值，支持的银行名称：工商银行、农业银行、中国银行、建设银行、光大银行、民生银行、广发银行、浦发银行、兴业银行、平安银行、浙商银行、交通银行、中信银行、上海银行、北京银行。</div>
+								    (4)需留意<a href="javascript:;" class="pay-bk-lbtn">各银行卡的限额</a>，选择适合自己投资需求的银行卡进行绑定
+								</div>	
+							</div>
+							<div class="dep-g-qai">
+								<div class="dep-g-q">Q：如何更换银行卡？</div>	
+								<div class="dep-g-a">
+									A：目前华兴银行只针对客户在华兴银行或者他行办理挂失换卡或销户销卡的情况下，才能在华兴APP端申请人工审批换卡，除此两种情况外，均需将个人E账户全部的资金转出后，方可办理换卡。如此前未在华兴APP进行实名认证的，换卡前还需前往APP进行实名认证操作。<a class="real-name-btn" href="javascript:;">实名认证指引></a>
+								</div>	
+							</div>
+						</div>
+					
+					</li>
+					<!--3充值-->
+					<li class="dep-d-bli" style="display:none;">
+						<!--详情-->
+						<div class="dep-g-details">
+							<!--详情切换小按钮-->
+							<ul class="dep-g-qhbtn3">
+								<li class="dep-g-cur">
+									<i class="dep-g-quan"></i>								
+									<p class="cb">1.点击充值</p>
+								</li>
+								<li>
+									<i class="dep-g-quan"></i>								
+									<p class="cb">2.输入金额</p>
+								</li>
+								<li>
+									<i class="dep-g-quan"></i>								
+									<p class="cb">3.安全验证</p>
+								</li>
+								<li>
+									<i class="dep-g-quan"></i>								
+									<p class="cb">4.充值成功</p>
+								</li>						
+							</ul>
+							<!--切换的内容-->
+							<div class="dep-g-contenti"  id="dep-d-d3">
+								<ul>
+									<li class="dep-g-contentii">
+										<img src="img/dep-g-cz1.png">
+										<div class="dep-g-ctxt1">登录票据宝个人中心，并点击“充值”按钮。</div>
+									</li>
+									<li class="dep-g-contentii">
+										<img src="img/dep-g-cz2.png">
+										<div class="dep-g-ctxt1">输入充值金额，点击充值。</div>
+									</li>
+									<li class="dep-g-contentii">
+										<img src="img/dep-g-cz3.png">
+										<div class="dep-g-ctxt1">请选择您的资金转出账户，输入手机动态密码、E账户交易密码。勾选已确认风险，点击确认按钮。</div>	
+									</li>
+									<li class="dep-g-contentii">
+										<img src="img/dep-g-cz4.png">
+										<div class="dep-g-ctxt1">充值成功。</div>	
+									</li>							
+								</ul>	
+							</div>
+							<!--左右切换按钮-->
+							<div class="dep-prev3"><a href="javascript:;"></a></div>
+							<div class="dep-next3"><a href="javascript:;"></a></div>
+						</div>	
+						<!--常见问题-->
+						<div class="dep-g-qa">
+							<div class="dep-g-qatxt1">常见问题</div>
+							<div class="dep-g-qai">
+								<div class="dep-g-q">Q：充值金额有没有限制？</div>	
+								<div class="dep-g-a">A：充值的最低金额限制为1元，最高限额请参考各家商业银行具体规定。<a href="javascript:;"  class="pay-bk-lbtn">查看银行卡限额></a></div>	
+							</div>
+							<div class="dep-g-qai">
+								<div class="dep-g-q">Q：从华兴银行E账户充值到平台专户有手续费吗?</div>	
+								<div class="dep-g-a">A：没有，不论是从华兴银行E账户充值到平台专户，还是从绑定银行卡充值到平台专户，均没有任何手续费。</div>	
+							</div>
+							<div class="dep-g-qai">
+								<div class="dep-g-q">Q：从E账户进行转账充值和从个人银行卡转账充值，有什么区别？</div>	
+								<div class="dep-g-a">
+									A：E账户充值，实时到账。若E账户无足够余额，需先从个人银行卡转账至华兴E账户，再行充值。<br>个人银行卡充值，通过E账户已绑定的银行卡充值，T+1工作日到票据宝账户。
+								</div>	
+							</div>
+							<div class="dep-g-qai">
+								<div class="dep-g-q">Q：充值失败的原因有哪些？</div>	
+								<div class="dep-g-a">
+									A：首先，请您检查以下事项是否正确：<br>
+		     						<div class="dep-g-ai">(1)绑定的银行卡不在支持的范围内。支持的银行名称：工商银行、农业银行、中国银行、建设银行、光大银行、民生银行、广发银行、浦发银行、兴业银行、平安银行、浙商银行、交通银行、中信银行、上海银行、北京银行。</div>
+		     						(2)超过所绑定银行卡的充值限额。<br>
+		     						(3)选择了E账户充值，但E账户余额不足。查看E账户余额。若不足，需从个人银行卡转账至华兴E账户，再行充值；或者选择他行银行卡充值。<br>
+		    						如非上述原因，请联系在线客服或拨打客服热线400-188-9138。
+								</div>	
+							</div>
+							
+						</div>	
+					</li>
+					<!--4投标-->
+					<li class="dep-d-bli" style="display:none;">
+						<!--详情-->
+						<div class="dep-g-details">
+							<!--详情切换小按钮-->
+							<ul class="dep-g-qhbtn4">
+								<li class="dep-g-cur">
+									<i class="dep-g-quan"></i>								
+									<p class="cb">1.点击抢购</p>
+								</li>
+								<li>
+									<i class="dep-g-quan"></i>								
+									<p class="cb">2.安全验证</p>
+								</li>
+								<li>
+									<i class="dep-g-quan"></i>								
+									<p class="cb">3.查看结果</p>
+								</li>											
+							</ul>
+							<!--切换的内容-->
+							<div class="dep-g-contenti"  id="dep-d-d4">
+								<ul>
+									<li class="dep-g-contentii">
+										<img src="img/dep-g-tb1.png">
+										<div class="dep-g-ctxt1">进入“我要理财”页面，选择您想要投资的标的，点击“购买”。</div>
+									</li>
+									<li class="dep-g-contentii">
+										<img src="img/dep-g-tb2.png">
+										<div class="dep-g-ctxt1">进入华兴银行界面，确认投标金额后，输入手机验证码和交易密码，点击“确认投标”。</div>
+									</li>
+									<li class="dep-g-contentii">
+										<img src="img/dep-g-tb3.png">
+										<div class="dep-g-ctxt1">在“我的账户”→“我的投资“中即可查看您投资的标的。</div>	
+									</li>							
+								</ul>	
+							</div>
+							<!--左右切换按钮-->
+							<div class="dep-prev4"><a href="javascript:;"></a></div>
+							<div class="dep-next4"><a href="javascript:;"></a></div>
+						</div>	
+						<!--常见问题-->
+						<div class="dep-g-qa">
+							<div class="dep-g-qatxt1">常见问题</div>
+							<div class="dep-g-qai">
+								<div class="dep-g-q">Q：为什么投标后没看到以往的收益提示？如何知道自己是否成功投标了？</div>	
+								<div class="dep-g-a">
+									A：由于交易信息是由存管银行传递给票据宝平台，信息将有可能存在不同步情况。<br>
+									因此，投标结束后不再弹出利息收益提示，只在投标时显示预计收益；若投标失败，等待30分钟后资金即可回账。<br>
+									 您可以在“我的账户”→“我的投资”中查看您的投标结果。
+								</div>	
+							</div>
+							<div class="dep-g-qai">
+								<div class="dep-g-q">Q：为什么我投标成功了会显示冻结或者处理中?</div>	
+								<div class="dep-g-a">A：原因有以下几种：由于网络故障、银行系统慢、或者标的帐户余额不足，银行没有划帐成功，被冻结显示处理中，银行系统30分钟后会自动解冻，投资资金会返还至您的账户，或者您登录账户点击“投资记录”查看投资标的状态，如果显示处理中，您点击“撤销”被冻结的资金或财富券会返回至您的账户中。</div>	
+							</div>
+							
+							
+						</div>
+					
+					</li>
+					<!--5快捷投标-->
+					<li class="dep-d-bli" style="display:none;">
+						<!--详情-->
+						<div class="dep-g-details">
+							<!--详情切换小按钮-->
+							<ul class="dep-g-qhbtn5">
+								<li class="dep-g-cur">
+									<i class="dep-g-quan"></i>								
+									<p class="cb">1.点击开通</p>
+								</li>
+								<li>
+									<i class="dep-g-quan"></i>								
+									<p class="cb">2.安全验证</p>
+								</li>
+								<li>
+									<i class="dep-g-quan"></i>								
+									<p class="cb">3.授权成功</p>
+								</li>											
+							</ul>
+							<!--切换的内容-->
+							<div class="dep-g-contenti"  id="dep-d-d5">
+								<ul>
+									<li class="dep-g-contentii">
+										<img src="img/dep-g-kjtb1.png">
+										<div class="dep-g-ctxt1">进入“个人中心-账户设置”页面，在“快捷投标”项点击“去开通”</div>
+									</li>
+									<li class="dep-g-contentii">
+										<img src="img/dep-g-kjtb2.png">
+										<div class="dep-g-ctxt1">进入华兴银行界面，输入手机验证码和交易密码，点击“确认授权”。</div>
+									</li>
+									<li class="dep-g-contentii">
+										<img src="img/dep-g-kjtb3.png">
+										<div class="dep-g-ctxt1">授权成功，此后投标无需再进入华兴银行安全验证页面，投标更快捷。</div>	
+									</li>							
+								</ul>	
+							</div>
+							<!--左右切换按钮-->
+							<div class="dep-prev5"><a href="javascript:;"></a></div>
+							<div class="dep-next5"><a href="javascript:;"></a></div>
+						</div>	
+						<!--常见问题-->
+						<div class="dep-g-qa">
+							<div class="dep-g-qatxt1">常见问题</div>
+							<div class="dep-g-qai">
+								<div class="dep-g-q">Q：设置快捷投标有什么作用？</div>	
+								<div class="dep-g-a">
+									A：开通华兴存管账户后，正常情况下，每次投标时需要进行密码、短信验证码等安全验证方能投标；<br>
+		      						设置快捷投标功能之后，只要点击“立即抢购”按钮便能投标成功，无需进行验证，操作更快捷，抢标先人一步。
+								</div>	
+							</div>
+							<div class="dep-g-qai">
+								<div class="dep-g-q">Q：快捷投标和票据宝智能投标的区别？</div>	
+								<div class="dep-g-a">
+									A：快捷投标是当您选定具体某一标的后，投标时可跳过验证的步骤，更快捷；<br>
+		     					 	智能投标是您预先设置好您喜好的标的类型，希望投资的金额等，当平台发布的标的符合您设置的条件时，自动为您进行投标操作，更省心。
+								</div>	
+							</div>
+							<div class="dep-g-qai">
+								<div class="dep-g-q">Q：设置了快捷投标功能，能否撤销呢？</div>	
+								<div class="dep-g-a">
+									A：可以的。您可以通过“个人中心-账户设置”页面，在“快捷投标”展开项点击“撤销”，即可撤销快捷投标功能。<br>
+		     						 撤销后，以后的每次投标都需要经过交易密码、短信验证码等信息验证。
+								</div>	
+							</div>
+							
+						</div>
+					
+					</li>
+					<!--6提现-->
+					<li class="dep-d-bli" style="display:none;">
+						<!--详情-->
+						<div class="dep-g-details">
+							<!--详情切换小按钮-->
+							<ul class="dep-g-qhbtn6">
+								<li class="dep-g-cur">
+									<i class="dep-g-quan"></i>								
+									<p class="cb">1.点击提现</p>
+								</li>
+								<li>
+									<i class="dep-g-quan"></i>								
+									<p class="cb">2.安全验证</p>
+								</li>
+								<li>
+									<i class="dep-g-quan"></i>								
+									<p class="cb">3.提现成功</p>
+								</li>											
+							</ul>
+							<!--切换的内容-->
+							<div class="dep-g-contenti"  id="dep-d-d6">
+								<ul>
+									<li class="dep-g-contentii">
+										<img src="img/dep-g-tx1.png">
+										<div class="dep-g-ctxt1">进入“个人中心”点击提现，在提现页面输入提现金额，点击立即提现。</div>
+										<div class="dep-g-ctxt2">温馨提示：首次提现需要在华兴银行APP进行实名认证，如已实名认证可立即提现。</div>
+									</li>
+									<li class="dep-g-contentii">
+										<img src="img/dep-g-tx2.png">
+										<div class="dep-g-ctxt1">请选择您的资金转出账户，输入手机动态密码、E账户交易密码。勾选已确认风险，点击确认按钮。</div>
+									</li>
+									<li class="dep-g-contentii">
+										<img src="img/dep-g-tx3.png">
+										<div class="dep-g-ctxt1">提现成功。</div>	
+									</li>							
+								</ul>	
+							</div>
+							<!--左右切换按钮-->
+							<div class="dep-prev6"><a href="javascript:;"></a></div>
+							<div class="dep-next6"><a href="javascript:;"></a></div>
+						</div>	
+						<!--常见问题-->
+						<div class="dep-g-qa">
+							<div class="dep-g-qatxt1">常见问题</div>
+							<div class="dep-g-qai">
+								<div class="dep-g-q">Q：为什么无法提现？</div>	
+								<div class="dep-g-a">
+									A：您需检查下，是否在华兴银行APP进行过实名认证，如未认证，将无法提现。<br>
+		      						您可以下载并安装华兴银行投融资平台APP，登录华兴银行E账户，进入“个人中心”→“实名认证”，按照提示进行人脸扫描，待华兴银行人工审核通过后，完成实名认证流程。
+		      						<a href="javascript:;" class="real-name-btn">实名认证指引></a>
+								</div>	
+							</div>
+							<div class="dep-g-qai">
+								<div class="dep-g-q">Q：华兴银行E账户提现有手续费吗?</div>	
+								<div class="dep-g-a">
+									A：没有，华兴银行E账户提现完全免费。
+								</div>	
+							</div>
+							<div class="dep-g-qai">
+								<div class="dep-g-q">Q：华兴银行提现有两种方式：</div>	
+								<div class="dep-g-a">
+									A：提现到E账户，实时到账。<br>
+		     						提现到绑定银行卡，5万以下实时到账；5万以上工作日8:30-17:00提现，2小时内到账，其他时间提现，下一工作日到账。
+								</div>	
+							</div>
+							<div class="dep-g-qai">
+								<div class="dep-g-q">Q：实名认证审核多久?</div>	
+								<div class="dep-g-a">
+									A：银行人工审核2个工作日（华兴银行人工服务工作时间是08:30-17:30，投融资APP提现实名认证开放时间是：08:30-18:00）
+								</div>	
+							</div>
+						</div>
+						
+					</li>
+				</ul>		
+				
+			</div>
+			
+		</div>
+		<!--存管指导结束-->
+		<!--尾部-->
+		<div style="clear:both;"></div>
+		<div class="bottom section">
+			<div class="bottom-mo"> 
+				<div class="bottom-m">
+				    <div class="xqwb">
+				      <ul style="padding-top:27px;">
+				        <li><a href="siteMap.shtml">网站地图</a></li>
+				        <li style=" padding-left:26px;"><a href="aboutUsInit3.do" rel="nofollow">公司介绍</a></li>
+				        <li style=" padding-left:26px;"><a href="http://www.pj.com/news/">媒体报道</a></li>
+				        <li style=" padding-left:26px;"><a href="http://www.pj.com/helpcenter-10.shtml" rel="nofollow">安全保障</a></li>
+				        <!--<li style=" padding-left:26px;"><a href="http://www.pj.com/helpcenter-1.shtml">帮助中心</a></li>-->
+				        <li style=" padding-left:26px;"><a href="http://www.pj.com/helpcenter-10.shtml" rel="nofollow">新手指引</a></li>
+				        <li style=" padding-left:26px;"><a href="http://www.pj.com/news/baike/">票据百科</a></li>
+				      </ul>
+				      <div style="padding-top:43px;*padding-top:26px;*padding-top: 16px;clear:both;" class="bottom-ico">
+				        <a href="http://www.weibo.com/piaojubao" target="_blank" class="sina" rel="nofollow"></a>			       
+				        <a href="http://tieba.baidu.com/f?ie=utf-8&kw=%E7%A5%A8%E6%8D%AE%E5%AE%9D&fr=search" rel="nofollow" target="_blank"  class="baidu"></a>
+				        <div class="fl in-b-tel"><img src="images/in-b-tel.png"></div>
+				        <div class="tel">
+					    	<p><span style="font-family:Arial; font-size:26px; color:#fff">400-188-9138</span></p>
+					    	<p>周一至周日 8:30-20:00</p>
+					    </div>
+				    
+				      </div>
+				    </div>
+				   
+				    <div class="QR">
+				      <img src="images/in-b-downappqr.png" width="110" height="110" alt=""/>
+				      <p class="pc3_txt_color999 pc3_txt_size12 pc3_txt_font2" style="text-align:center ;padding-top:5px;">APP客户端</p>
+				    </div>
+				    <div class="inb-weixin-qr">
+				      <img src="images/in-b-wexinqr.png" width="110" height="110" alt=""/>
+				      <p class="pc3_txt_color999 pc3_txt_size12 pc3_txt_font2" style="text-align:center ;padding-top:5px;">微信订阅号</p>
+				    </div>
+				    <div class="QR">
+				    	<img src="images/wxfwh-qr.jpg" width="110" height="110" alt=""/>
+				    	<p class="pc3_txt_color999 pc3_txt_size12 pc3_txt_font2" style="text-align:center ;padding-top:5px;">微信服务号</p>
+				    </div>
+				</div>
+			</div> 	
+			<div class="bottom-bo">
+				<div class="f-link">
+				    <div class="f-link_li"><span style="float: left;">友情链接:</span>
+				      <ul>
+				        <li><a href="http://www.zgpj.net/" target="_blank">中国票据网</a></li>
+				          <li><a href="http://www.jinrongnet.com.cn/" target="_blank">互联网金融论坛</a></li>
+				          <li><a href="http://bbs.toplicai.cn/" target="_blank">理财论坛</a></li>
+				          <li><a href="http://www.managershare.com" target="_blank">经理人分享</a></li>
+				          <li><a href="http://www.talkforex.com/" target="_blank">韬客外汇论坛</a></li>
+				          <li><a href="http://www.zt5.com" target="_blank">理财知识</a></li>
+				          <li><a href="http://www.nongshang.com/" target="_blank">中国农商银行</a></li>
+				          <li><a href="http://bbs.pj.com/" target="_blank">票据宝论坛</a></li>
+				          <li><a href="http://www.southmoney.com/" target="_blank">南方财富网</a></li>
+				          <li><a href="http://www.kameng.com" target="_blank">卡盟网</a></li>
+				          <li><a href="http://www.pj.com/news/ " target="_blank">票据资讯</a></li>
+				          <li><a href="http://www.afinance.cn/" target="_blank">第一金融网</a></li>
+				          <li><a href="http://money.laoqianzhuang.com/ " target="_blank">老钱庄理财</a></li>
+				          <li><a href="http://www.kjj.com" target="_blank">开放式基金</a></li>
+				          <li><a href="http://www.wangdaidongfang.com" target="_blank">网贷东方</a></li>
+				          <li><a href="http://www.jiedai.cn/" target="_blank">借贷网</a></li>
+				          <li><a href="http://www.pj.com/news/pingji/" target="_blank">信用评级</a></li>
+				          <li><a href=" http://www.51wangdai.com" target="_blank"> 51网贷</a></li>
+				          <li><a href="http://www.wdtianxia.com " target="_blank">网贷天下</a></li>
+				          <li><a href="http://m.pj.com " target="_blank">票据宝手机版</a></li>
+				          <li><a href="http://www.my089.com/" target="_blank">红岭创投</a></li>
+				          <li><a href="http://www.wdzj.com/" target="_blank">网贷之家</a></li>
+				          <li><a href="http://www.tcdai.com/" target="_blank"> 同城贷</a></li>
+				          <li><a href="http://www.jfz.com/" target="_blank">金斧子财富</a></li>
+				          </ul>
+				    </div>
+				  </div>
+				<div class="banquan" <!--style=" padding-top:30px;"-->
+					<div class="banquan_left" style="padding-top:30px;">
+				      <ul>
+				        <!--
+				        <li class="bq1" style="margin-left:48px;"><a href="#" target="_blank"></a></li>
+				        <li class="bq2"><a href="#" target="_blank"></a></li>
+				        <li class="bq3"><a href="#" target="_blank"></a></li>
+				        <li class="bq4"><a href="#" target="_blank"></a></li>
+				        <li class="bq5"><a href="#" target="_blank"></a></li>
+				        <li class="bq6"><a href="#" target="_blank"></a></li>           -->
+				
+				        <li class="bq1" style="margin-left:15px;"><a id='___szfw_logo___'
+				               href='https://search.szfw.org/cert/l/CX20141223006113006218' rel="nofollow"
+				               target='_blank'>
+				          <script type='text/javascript'>
+				            (function() {
+				              document.getElementById('___szfw_logo___').oncontextmenu = function() {
+				                return false;
+				              }
+				            })();
+				          </script>
+				        </a>
+				        </li>
+				        <!--诚信网站-->
+				
+				        <!--360安全-->
+				
+				        <li class="bq2"> <a href="http://webscan.360.cn/index/checkwebsite?url=www.pj.com" target='_blank' rel="nofollow">     </a>
+				
+				        </li>
+				        <!--可信网站图片LOGO安装结束-->
+				
+				        <!--可信网站图片LOGO安装开始-->
+				        <li class="bq3">       <a href="http://www.anquan.org/authenticate/cert/?site=www.pj.com&at=business" target="_blank" rel="nofollow">        </a>
+				
+				        </li>
+				        <!--360安全-->
+				
+				        <!--行业认证-->
+				        <li class="bq4"><a  key ="549265283b05a3da0fbd62fb"  logo_size="83x30"  logo_type="business"  href="http://www.anquan.org"  target='_blank' rel="nofollow"></a></li>
+				
+				
+				
+				        <!--行业认证-->
+				
+				        <!--经营信息网站备案-->
+				        <li class="bq5"><a href="http://www.miibeian.gov.cn/publish/query/indexFirst.action" target='_blank' rel="nofollow"></a>
+				        </li>
+				        <!--经营信息网站备案-->
+				
+				        <!--工商备案-->
+				        <li class="bq6">
+				          <a href="https://szcert.ebs.org.cn/8b523f03-8c76-4f6c-96f8-ea195409b26e" target='_blank' rel="nofollow"> </a>
+				        </li>
+				      </ul>
+				    </div>
+				  
+				    <div class="fl" style="margin-left:20px;padding-top:20px;font-size:14px;"><p>理财有风险，投资需谨慎</p><p>版权所有 © 2014-2016  深圳市票据宝金融服务有限公司</p><p>备案号：粤ICP备14040066号-1 </p>
+				      <div style="display: none;">
+				        <script type="text/javascript">
+				          var cnzz_protocol = (("https:" == document.location.protocol) ? " https://"
+				                  : " http://");
+				          document
+				                  .write(unescape("%3Cspan id='cnzz_stat_icon_1253644181'%3E%3C/span%3E%3Cscript src='"
+				                  + cnzz_protocol
+				                  + "s11.cnzz.com/z_stat.php%3Fid%3D1253644181%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));
+				        </script>
+				      </div>
+				    </div>
+				</div>
+			</div>	
+		</div>
+		<!--尾部结束-->
+		<!--弹窗-->
+		<!--三方支付支持银行列表-->
+		<div class="pay-bk-list">
+			<div class="pay-bk-txt1">
+				<p class="fl">三方支付支持银行列表</p>
+				<div class="ppb-ddclosebtno"><a href="javascript:;" class="ppb-ddclosebtn"></a></div>
+			</div>
+			<div class="pay-bk-ltxt1"><span>中金</span>（仅供参考，最终以华兴银行公示内容为准）</div>
+			<div class="pay-bktable">
+			    <table class="pay-bktablei" width="688px" border="1" cellspacing="0" cellpadding="0">
+			        <tbody>
+			        	<tr class="pay-bktablei2">
+		                    <td>银行</td>
+		                    <td>卡性质</td>
+		                    <td>单笔限额</td>
+		                    <td>日累计限额</td>
+		                </tr>
+			        	<tr class="pay-bktablei1">
+			                <td colspan="4">全国性商业银行（15家）</td>			                
+			            </tr>		
+			            <tr class="pay-bktablei2">
+	                        <td>工商银行</td>
+	                        <td>储蓄卡</td>
+	                        <td>5万</td>
+	                        <td>5万</td>
+	                    </tr>
+		                <tr class="pay-bktablei2">
+		                    <td>农业银行</td>
+		                    <td>储蓄卡</td>
+		                    <td>20万</td>
+		                    <td>20万</td>
+		                </tr>
+			            <tr class="pay-bktablei2">
+		                    <td>中国银行</td>
+		                    <td>储蓄卡</td>
+		                    <td>5万</td>
+		                    <td>50万</td>
+		                </tr>
+			            <tr class="pay-bktablei2">
+		                    <td>建设银行</td>
+		                    <td>储蓄卡</td>
+		                    <td>20万</td>
+		                    <td>50万</td>
+		                </tr>
+			            <tr class="pay-bktablei2">
+		                    <td>交通银行</td>
+		                    <td>1储蓄卡</td>
+		                    <td>2万</td>
+		                    <td>2万</td>
+		                </tr>
+		                <tr class="pay-bktablei1">
+			                <td colspan="4">交通银行：柜面、网银开通无卡支付业务</td>			                
+			            </tr>
+			            <tr class="pay-bktablei2">
+		                    <td>广大银行</td>
+		                    <td>储蓄卡</td>
+		                    <td>20万</td>
+		                    <td>50万</td>
+		                </tr>
+			            <tr class="pay-bktablei2">
+		                    <td>民生银行</td>
+		                    <td>储蓄卡</td>
+		                    <td>100万</td>
+		                    <td>100万</td>
+		                </tr>
+		                <tr class="pay-bktablei2">
+		                    <td>广发银行</td>
+		                    <td>储蓄卡</td>
+		                    <td>100万</td>
+		                    <td>100万</td>
+		                </tr>
+			            <tr class="pay-bktablei2">
+		                    <td>中信银行</td>
+		                    <td>储蓄卡</td>
+		                    <td>5000</td>
+		                    <td>5万</td>
+		                </tr>
+		                <tr class="pay-bktablei1">
+			                <td colspan="4">中信银行：柜面、网银或在线开通无卡支付业务</td>			                
+			            </tr>
+			            <tr class="pay-bktablei2">
+		                    <td>浦发银行</td>
+		                    <td>储蓄卡</td>
+		                    <td>已关闭</td>
+		                    <td>已关闭</td>
+		                </tr>
+			            <tr class="pay-bktablei2">
+		                    <td>兴业银行</td>
+		                    <td>储蓄卡</td>
+		                    <td>5万</td>
+		                    <td>5万</td>
+		                </tr>
+		                 <tr class="pay-bktablei2">
+		                    <td>上海银行</td>
+		                    <td>储蓄卡</td>
+		                    <td>5000</td>
+		                    <td>5万</td>
+		                </tr>
+		                <tr class="pay-bktablei1">
+			                <td colspan="4">上海银行：柜台开通在线支付（并预留手机号）</td>			                
+			            </tr>
+			            <tr class="pay-bktablei2">
+		                    <td>北京银行</td>
+		                    <td>储蓄卡</td>
+		                    <td>5000</td>
+		                    <td>5万</td>
+		                </tr>
+		                <tr class="pay-bktablei1">
+			                <td colspan="4">北京银行：柜面、电话银行、网银方式办理“在线支付签约”开通无卡支付功能</td>			                
+			            </tr>
+			            <tr class="pay-bktablei2">
+		                    <td>平安银行</td>
+		                    <td>储蓄卡</td>
+		                    <td>100万</td>
+		                    <td>100万</td>
+		                </tr>
+		                <tr class="pay-bktablei2">
+		                    <td>浙商银行</td>
+		                    <td>储蓄卡</td>
+		                    <td>100万</td>
+		                    <td>100万</td>
+		                </tr>
+			        </tbody>
+			    </table>
+			</div>
+		</div>
+		<!--实名认证指引-->
+		<div class="real-name">
+			<div class="real-name-t">
+				<div class="r-n-txt1">实名认证指引</div>
+				<div class="close-btno">
+					<a class="close-btn" href="javascript:;"></a>
+				</div>
+				<div class="r-n-qhout">
+					<div class="r-n-prev"><a href="javascript:void(0)"></a></div>
+					<div class="r-n-show">							
+						<div class="r-n-cont">
+							<ul>
+								<li>
+									<img src="img/dep-g-step-pic1.png">
+								</li>
+								<li>
+									<img src="img/dep-g-step-pic2.png">
+								</li>
+							</ul>
+						</div>							
+					</div>		
+					<div class="r-n-next"><a href="javascript:void(0)"></a> </div>													
+				</div>
+			</div>	
+		</div>
+		
+		<div class="dep-g-mask"></div>
+		<!--弹窗结束-->
+		</div>
+		<script type="text/javascript" src="js/slider.js" ></script>
+		<script type="text/javascript" src="js/dep-g.js" ></script>
+
+	</body>
+</html>

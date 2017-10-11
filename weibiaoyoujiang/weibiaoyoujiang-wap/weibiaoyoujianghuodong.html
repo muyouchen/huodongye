@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>尾标有奖活动wap</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<meta name="format-detection" content="telephone=no" />
+	<script type="text/javascript" src="js/rem.js" ></script>
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js" ></script>
+	<script src="js/awardRotate.js"></script>
+	<link rel="stylesheet" href="css/quan.css" />
+</head>
+<body style="background:#fff; ">
+
+
+
+	<!--弹窗1-->
+	<div class="tan tan1" style="display:none; ">
+		<div class="tann" style="position:absolute;width:10.86rem;height:7.67rem;left:50%;top:45%; margin-left:-5.43rem;margin-top:-3.835rem;background: url(img/tan1.png) center no-repeat;background-size:cover;     ">
+			<img class="guan1" src="img/guan1.png"/ style="width:0.38rem;height:0.38rem;position:absolute;right:1.3rem;top:2.25rem; " >
+			<div class="size50 yanse2 centerx hanggao80" style="position:relative;margin:0 auto;width:5rem;top:3.5rem;left:0.3rem; ">
+				恭喜您，<br>获得<span class="yanse3 jiacu size70 yuan"></span><span class="yanse3">元</span>现金券
+			</div>
+			<div style="margin:0 auto;position: relative;top:4.3rem;left:0.18rem;width:7rem;height:0.79rem;  " class="ann">
+				<a class="size50 bai centerx tou" style="display:inline-block;background-size:cover;height:0.79rem;line-height:0.79rem;width:3.23rem; position:absolute;left:0rem; " href="javascript:;">
+					继续投资
+				</a>
+				<a class="size50 bai centerx tou" style="display:inline-block;background-size:cover;height:0.79rem;line-height:0.79rem;width:3.23rem; position:absolute;right:0rem; " href="javascript:;">
+					查看奖励
+				</a>
+			</div>
+		</div>	
+	</div>
+
+
+
+
+
+    <div style="background:#e34554;height:1.7rem;line-height:1.7rem;width:100%;position:relative;text-align:center;     ">
+       <a style="background: url(img/zuo.png) center no-repeat;background-size:cover;width:0.36rem;height:0.62rem;display:block; position:absolute;left:0.35rem;top:0.55rem;    " href="JavaScript:history.back(-1)"></a> 
+       <span class="size60 bai" style="position:relative;top:-0.15rem; ">购买成功</span>
+    </div>
+	<div class="yanse1 size50 centerx hanggao80" style="margin:1.8rem auto 1.8rem auto;width:8rem;  ">终于等到你！标的终结者！<br>赶紧来领取你的奖励吧！</div>
+	<div class="turntable-bg" style="top:-0.25rem;">
+        <div class="pointer"></div>
+        <div class="rotate" ><img id="rotate" src="img/zhuandong.png" alt="turntable" style="width:6.29rem; height:6.28rem;"></div>
+    </div>
+	<a href="javascript:;" class="size38 yanse4 centerx" style="margin:0 auto;width:8.5rem;top:1.5rem;position: relative;display:block;  ">所得奖励可到【我的账户-我的奖券】中查看</a>
+	
+
+	
+</body>
+<script type="text/javascript">
+	$(function() {
+		//禁止弹窗页面滑动
+        var mo=function(e){e.preventDefault();};
+		function stop(){
+		        document.body.style.overflow='hidden';        
+		        document.addEventListener("touchmove",mo,false);
+		}
+		function move(){
+		        document.body.style.overflow='';
+		        document.removeEventListener("touchmove",mo,false);        
+		}
+		
+		$(".guan1").click(function(){
+			$(".tan1").hide();
+			move();
+		});	
+		
+	});
+</script>
+<script>
+        $(function (){
+            var rotateTimeOut = function (){
+                $('#rotate').rotate({
+                    angle:0,
+                    animateTo:2160,
+                    duration:8000,
+                    callback:function (){
+                        alert('网络超时，请检查您的网络设置！');
+                    }
+                });
+            };
+            var bRotate = false;
+
+            var rotateFn = function (awards, angles, txt){
+                bRotate = !bRotate;
+                $('#rotate').stopRotate();
+                $('#rotate').rotate({
+                    angle:0,
+                    animateTo:angles+1800,
+                    duration:8000,
+                    callback:function (){
+                        $(".tan1").show();
+                        $(".tan1 .yuan").html(txt);
+                        bRotate = !bRotate;
+                    }
+                })
+            };
+            $(".pointer").one("click",function(){  
+                if(bRotate)return;
+                var item = rnd(0,7);
+                
+                switch (item) {
+                    case 0:
+                        //var angle = [26, 88, 137, 185, 235, 287, 337];
+                        rotateFn(0, 337, '10');
+                        break;
+                    case 1:
+                        //var angle = [88, 137, 185, 235, 287];
+                        rotateFn(1, -68, '200');
+                        break;
+                    case 2:
+                        //var angle = [137, 185, 235, 287];
+                        rotateFn(2, -115, '20');
+                        break;
+                    case 3:
+                        //var angle = [137, 185, 235, 287];
+                        rotateFn(3, -158, '50');
+                        break;
+                    case 4:
+                        //var angle = [185, 235, 287];
+                        rotateFn(4, -203, '30');
+                        break;
+                    case 5:
+                        //var angle = [185, 235, 287];
+                        rotateFn(5, -248, '100');
+                        break;
+                    case 6:
+                        //var angle = [235, 287];
+                        rotateFn(6, -293, '5');
+                        break;
+                    case 7:
+                        //var angle = [287];
+                        rotateFn(7, -338, '500');
+                        break;
+                }
+            });  
+           
+        });
+        function rnd(n, m){
+            return Math.floor(Math.random()*(m-n+1)+n)
+        }
+    </script>
+</html>

@@ -1,0 +1,41 @@
+body, h1, h2, h3, h4, h5, h6, hr, p,blockquote,dl, dt, dd, ul, ol, li, pre,form, fieldset, legend, button, input, textarea, th, img{ font-family:"微软雅黑"; border:medium none; margin: 0; padding: 0;}
+.box{font-size:0; width:100%; font-family:"微软雅黑"; position:relative; height:auto;}
+
+
+
+/*字体颜色*/
+.pc3_txt_size12{ font-size: 12px;}
+.pc3_txt_size16{ font-size: 16px;}
+.pc3_txt_size18{ font-size: 18px;}
+.pc3_txt_size20{ font-size: 20px;}
+.pc3_txt_size22{ font-size: 22px;}
+.pc3_txt_size24{ font-size: 24px;}
+.pc3_txt_size30{ font-size: 30px;}
+.pc3_txt_size40{font-size: 40px;}
+.pc3_txt_size50{font-size: 50px;}
+.pc3_txt_size64{ font-size: 64px;}
+.pc3_txt_size83{ font-size: 83px;}
+.pc3_txt_size86{ font-size: 86px;}
+.pc3_txt_size105{ font-size:105px;}
+.pc3_txt_size110{ font-size:110px;}
+/*字体颜色*/
+.pc3_txt_colorfff{ color:#ffffff;}
+.pc3_txt_color_red1{color:#e42c27;}
+.pc3_txt_color_red2{color:#d00f2b;}
+.pc3_txt_color555{color:#555555;}
+.pc3_txt_color999{color:#999999}
+.pc3_txt_colore9{color:#e9e9e9;}
+.pc3_txt_color8b{color:#8b8b8b;}
+.pc3_txt_colorc4{color:#c4c4c4；}
+.pc3_txt_color_orange{color:#f6ac64;}
+.pc3_txt_color_orange1{color:#ff9630;}
+/*字体*/
+.pc3_txt_font1{ font-family:arial;}
+.pc3_txt_font2{ font-family: "黑体";}
+.pc3_txt_font3{ font-family: "宋体";}
+.pc3_txt_font22{font-family: arial;}
+/*行高*/
+.pc3_txt_lh18{ line-height:18px; height:18px;}
+.pc3_txt_lh24{ line-height:24px; height:24px;}
+.pc3_txt_lh86{ line-height:86px; height:86px;}
+.pc3_txt_lh110{ line-height:110px; height:110px;}

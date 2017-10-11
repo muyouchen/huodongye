@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>天天摇一摇</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<meta name="format-detection" content="telephone=no" />
+	<script type="text/javascript" src="js/rem.js" ></script>
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js" ></script>
+	<link rel="stylesheet" href="css/quan.css" />
+</head>
+<body >
+	
+	
+	<!--弹窗1-->
+	<div class="tan tan1" style="display:none;    ">
+		<div class="tann" style="position:absolute;width:6.13rem;height:6.61rem;left:50%;top:50%; margin-left:-3.065rem;margin-top:-3.305rem;background: url(img/tan1.png) center no-repeat;background-size:cover;    ">
+			<img class="guan" src="img/guan.png"/ style="width:0.6rem;height:0.6rem;position:absolute;right:0.5rem;top:0.4rem; " >
+			<div style="background: url(img/huabian.png) center no-repeat;width:5.15rem;height:2.98rem;background-size:cover;position:absolute;left:7%;top:1rem;" >
+		    </div>
+			<div class="size36 yanse3 jiacu centerx" style="position:relative;top:1.1rem;width:5rem;margin:0 auto;   ">恭喜你！抽中红包</div>
+			<div class="size36 yanse3 jiacu centerx" style="position:relative;top:1.2rem;width:5rem;margin:0 auto;   "><span>5</span>元现金券</div>
+			<a class="size32 yanse4 centerx kanhongbao" style="display:block;background: url(img/anniu7.png) center no-repeat;background-size:cover;height:0.85rem;line-height:0.8rem;width:2.96rem; margin:0 auto;position:relative;top:1.7rem;    " href="javascript:;">
+					查看红包
+	        </a>
+	        <div class="size26 yanse4  centerx" style="position:relative;top:2.6rem;width:5rem;margin:0 auto;   ">单笔投资票票宝1000元以上</div>
+	        <div class="size26 yanse4  centerx" style="position:relative;top:2.7rem;width:5rem;margin:0 auto;   ">
+	        	<span style="margin-right:0.3rem; ">可再摇一次哦</span><a class="yanse3" style="text-decoration:underline;margin-right:0.5rem;  " href="javascript:;">去投资</a>
+	        </div>
+	        <div class="size20 yanse5  centerx" style="position:relative;top:3rem;width:5rem;margin:0 auto;   ">已投资可直接点击抽奖页面的“我要多摇一次”</div>
+		</div>	
+	</div>
+	<!--弹窗2-->
+	<div class="tan tan2" style="display:none;   ">
+		<div class="tann" style="position:absolute;width:6.13rem;height:6.61rem;left:50%;top:50%; margin-left:-3.065rem;margin-top:-3.305rem;background: url(img/tan1.png) center no-repeat;background-size:cover;    ">
+			<img class="guan" src="img/guan.png"/ style="width:0.6rem;height:0.6rem;position:absolute;right:0.5rem;top:0.4rem; " >
+			<div style="background: url(img/huabian.png) center no-repeat;width:5.15rem;height:2.98rem;background-size:cover;position:absolute;left:7%;top:1rem;" >
+		    </div>
+			<div class="size36 yanse3 jiacu centerx" style="position:relative;top:1.1rem;width:5rem;margin:0 auto;   ">恭喜你！抽中红包</div>
+			<div class="size36 yanse3 jiacu centerx" style="position:relative;top:1.2rem;width:5rem;margin:0 auto;   "><span>1</span>%加息券</div>
+			<a class="size32 yanse4 centerx kanhongbao" style="display:block;background: url(img/anniu7.png) center no-repeat;background-size:cover;height:0.85rem;line-height:0.8rem;width:2.96rem; margin:0 auto;position:relative;top:1.7rem;    " href="javascript:;">
+					查看红包
+	        </a>
+	        <div class="size26 yanse4  centerx" style="position:relative;top:2.6rem;width:5rem;margin:0 auto;   ">单笔投资票票宝1000元以上</div>
+	        <div class="size26 yanse4  centerx" style="position:relative;top:2.7rem;width:5rem;margin:0 auto;   ">
+	        	<span style="margin-right:0.3rem; ">可再摇一次哦</span><a class="yanse3" style="text-decoration:underline;margin-right:0.5rem;  " href="javascript:;">去投资</a>
+	        </div>
+	        <div class="size20 yanse5  centerx" style="position:relative;top:3rem;width:5rem;margin:0 auto;   ">已投资可直接点击抽奖页面的“我要多摇一次”</div>
+		</div>	
+	</div>
+	<!--弹窗3-->
+	<div class="tan tan3" style="display:none;     ">
+		<div class="tann" style="position:absolute;width:6.13rem;height:6.61rem;left:50%;top:50%; margin-left:-3.065rem;margin-top:-3.305rem;background: url(img/tan1.png) center no-repeat;background-size:cover;    ">
+			<img class="guan" src="img/guan.png"/ style="width:0.6rem;height:0.6rem;position:absolute;right:0.5rem;top:0.4rem; " >
+			<div class="size36 yanse3 jiacu centerx" style="position:relative;top:1.1rem;width:5rem;margin:0 auto;   ">喔噢，运气还差一点点</div>
+			<div class="size36 yanse3 jiacu centerx" style="position:relative;top:1.2rem;width:5rem;margin:0 auto;   ">未抽中红包</div>
+			<a class="size32 yanse4 centerx kanhongbao" style="display:block;background: url(img/anniu7.png) center no-repeat;background-size:cover;height:0.85rem;line-height:0.8rem;width:2.96rem; margin:0 auto;position:relative;top:1.7rem;    " href="javascript:;">
+					查看红包
+	        </a>
+	        <div class="size26 yanse4  centerx" style="position:relative;top:2.6rem;width:5rem;margin:0 auto;   ">单笔投资票票宝1000元以上</div>
+	        <div class="size26 yanse4  centerx" style="position:relative;top:2.7rem;width:5rem;margin:0 auto;   ">
+	        	<span style="margin-right:0.3rem; ">可再摇一次哦</span><a class="yanse3" style="text-decoration:underline;margin-right:0.5rem;  " href="javascript:;">去投资</a>
+	        </div>
+	        <div class="size20 yanse5  centerx" style="position:relative;top:3rem;width:5rem;margin:0 auto;   ">已投资可直接点击抽奖页面的“我要多摇一次”</div>
+		</div>	
+	</div>
+	<!--弹窗4-->
+	<div class="tan tan4" style="display:none;     ">
+		<div class="tann" style="position:absolute;width:6.13rem;height:4.61rem;left:50%;top:50%; margin-left:-3.065rem;margin-top:-2.305rem;background: url(img/tan2.png) center no-repeat;background-size:cover;    ">
+			<img class="guan" src="img/guan.png"/ style="width:0.6rem;height:0.6rem;position:absolute;right:0.5rem;top:0.4rem; " >
+			<div class="size32 yanse4 centerx" style="position:relative;top:1.4rem;width:5rem;margin:0 auto;   ">单笔投资票票宝1000元以上</div>
+			<div class="size32 yanse4 centerx" style="position:relative;top:1.5rem;width:5rem;margin:0 auto;   ">可再摇一次哦</div>
+			<a class="size32 yanse4 centerx jujue guan" style="display:block;background: url(img/anniu8.png) center no-repeat;background-size:cover;height:0.85rem;line-height:0.8rem;width:2.36rem; position:absolute;left:0.5rem;top:2.9rem;      " href="javascript:;">
+					残忍拒绝
+	        </a>
+	        <a class="size32 yanse4 centerx touzi" style="display:block;background: url(img/anniu8.png) center no-repeat;background-size:cover;height:0.85rem;line-height:0.8rem;width:2.36rem; position:absolute;right:0.5rem;top:2.9rem;      " href="javascript:;">
+					马上投资
+	        </a>
+		</div>	
+	</div>
+	<!--弹窗5-->
+	<div class="tan tan5" style="display:none;">
+		<div class="tann" style="position:absolute;width:6.13rem;height:4.61rem;left:50%;top:50%; margin-left:-3.065rem;margin-top:-2.305rem;background: url(img/tan2.png) center no-repeat;background-size:cover;    ">
+			<img class="guan" src="img/guan.png"/ style="width:0.6rem;height:0.6rem;position:absolute;right:0.5rem;top:0.4rem; " >
+			<div class="size36 yanse3 jiacu centerx" style="position:relative;top:1.7rem;width:5rem;margin:0 auto;   ">喔噢，运气还差一点点</div>
+			<div class="size36 yanse3 jiacu centerx" style="position:relative;top:1.8rem;width:5rem;margin:0 auto;   ">未抽中红包</div>
+		</div>	
+	</div>	
+	<!--弹窗6-->
+	<div class="tan tan6" style="display:none;      ">
+		<div class="tann" style="position:absolute;width:6.13rem;height:4.61rem;left:50%;top:50%; margin-left:-3.065rem;margin-top:-2.305rem;background: url(img/tan2.png) center no-repeat;background-size:cover;    ">
+			<img class="guan" src="img/guan.png"/ style="width:0.6rem;height:0.6rem;position:absolute;right:0.5rem;top:0.4rem; " >
+			<div class="size32 yanse4 centerx" style="position:relative;top:1.4rem;width:5rem;margin:0 auto;   ">亲爱哒，您已经摇过2次了哦！</div>
+			<div class="size32 yanse4 centerx" style="position:relative;top:1.5rem;width:5rem;margin:0 auto;   ">请明日再来摇奖吧！</div>
+			<a class="size32 yanse4 centerx guan" style="display:block;background: url(img/anniu7.png) center no-repeat;background-size:cover;height:0.85rem;line-height:0.8rem;width:2.96rem; position:absolute;left:1.6rem;top:2.75rem;      " href="javascript:;">
+					忍痛关闭
+	        </a>
+		</div>	
+	</div>
+	<!--弹窗7-->
+	<div class="tan tan7" style="display:none;      ">
+		<div class="tann" style="position:absolute;width:6.13rem;height:4.61rem;left:50%;top:50%; margin-left:-3.065rem;margin-top:-2.305rem;background: url(img/tan2.png) center no-repeat;background-size:cover;    ">
+			<img class="guan" src="img/guan.png"/ style="width:0.6rem;height:0.6rem;position:absolute;right:0.5rem;top:0.4rem; " >
+			<div style="background: url(img/huabian.png) center no-repeat;width:5.15rem;height:2.98rem;background-size:cover;position:absolute;left:7%;top:1rem;" >
+		    </div>
+			<div class="size36 yanse3 jiacu centerx" style="position:relative;top:1.1rem;width:5rem;margin:0 auto;   ">恭喜你！抽中红包</div>
+			<div class="size36 yanse3 jiacu centerx" style="position:relative;top:1.2rem;width:5rem;margin:0 auto;   "><span>1</span>%加息券</div>
+			<a class="size32 yanse4 centerx kanhongbao" style="display:block;background: url(img/anniu7.png) center no-repeat;background-size:cover;height:0.85rem;line-height:0.8rem;width:2.96rem; position:absolute;left:1.6rem;top:2.65rem;      " href="javascript:;">
+					查看红包
+	        </a>
+		</div>	
+	</div>
+	<!--弹窗8-->
+	<div class="tan tan8" style="display:none;       ">
+		<div class="tann" style="position:absolute;width:6.13rem;height:4.61rem;left:50%;top:50%; margin-left:-3.065rem;margin-top:-2.305rem;background: url(img/tan2.png) center no-repeat;background-size:cover;    ">
+			<img class="guan" src="img/guan.png"/ style="width:0.6rem;height:0.6rem;position:absolute;right:0.5rem;top:0.4rem; " >
+			<div style="background: url(img/huabian.png) center no-repeat;width:5.15rem;height:2.98rem;background-size:cover;position:absolute;left:7%;top:1rem;" >
+		    </div>
+			<div class="size36 yanse3 jiacu centerx" style="position:relative;top:1.1rem;width:5rem;margin:0 auto;   ">恭喜你！抽中红包</div>
+			<div class="size36 yanse3 jiacu centerx" style="position:relative;top:1.2rem;width:5rem;margin:0 auto;   "><span>5</span>元现金券</div>
+			<a class="size32 yanse4 centerx kanhongbao" style="display:block;background: url(img/anniu7.png) center no-repeat;background-size:cover;height:0.85rem;line-height:0.8rem;width:2.96rem; position:absolute;left:1.6rem;top:2.65rem;      " href="javascript:;">
+					查看红包
+	        </a>
+		</div>	
+	</div>
+
+
+	<div style="background: url(img/bei1.jpg) center no-repeat;width:100%;height:13.34rem;background-size:cover;position:relative; ">
+		<div style="background: url(img/hongbao.png) center no-repeat;width:5.86rem;height:2.35rem;background-size:cover;position:absolute;left:12%;top:3rem;opacity:0;   " class="hongbao">
+		</div>
+		<div style="background: url(img/mao.png) center no-repeat;width:6.48rem;height:6.07rem;background-size:cover;position:absolute;left:8%;top:4.35rem;  " class="zhaocaimaoyaohuangchushi mao">
+		</div>
+		<a class="yanse2 size26" style="position:absolute;left:40%;top:10.6rem;text-decoration:underline;display:block;   " href="yaojianghuodongguize.html">查看摇奖规则</a>
+		<div style="position:absolute;left:13%;top:11.2rem;height:1.38rem; " class="centerx">
+			<!-- 点亮 -->
+			<div style="background-size:cover;display:block;  " class="niu1" id="niu1">
+			</div>
+			<!-- 置灰 -->
+			<div style="background-size:cover;display:none; " class="niu3" >
+			</div>	
+		</div>
+		<div style="position:absolute;right:13%;top:11.2rem;height:1.38rem;" class="centerx">
+			<!-- 置灰 -->
+			<div style="background-size:cover;display:block;   " class="niu6">
+			</div>
+			<!-- 点亮 -->
+			<div style="background-size:cover;display:none;   " class="niu4" id="niu4">
+			</div>	
+		</div>
+		<div class="size22 bai" style="position:absolute;left:13.5%;top:12.59rem;">每天1次免费摇奖机会</div>
+		<div class="size22 bai" style="position:absolute;right:12%;top:12.57rem;  ">单笔投资票票宝1000元+</div>
+	</div>
+	
+
+	
+</body>
+<script type="text/javascript">
+	$(function() {
+		function touchChange(id,class1,class2){  
+                document.getElementById(id).addEventListener("touchstart",function(){document.getElementById(id).className= class2;},false);
+			    document.getElementById(id).addEventListener("touchend", function(){document.getElementById(id).className = class1;},false);
+        }
+        touchChange('niu1','niu1','niu1yiru');
+        touchChange('niu4','niu4','niu4yiru');
+		var mo=function(e){e.preventDefault();};
+		function stop(){
+		        document.body.style.overflow='hidden';        
+		        document.addEventListener("touchmove",mo,false);
+		}
+		function move(){
+		        document.body.style.overflow='';
+		        document.removeEventListener("touchmove",mo,false);        
+		}
+		$(".niu1").click(function(){
+	    	$(".mao").removeClass("zhaocaimaoyaohuangchushi");
+	    	$(".mao").addClass("zhaocaimaoyaohuangdianji");
+	    	$(".hongbao").addClass("pengchu");
+	    	setTimeout(function () {
+			 	stop();
+			 	$(".tan1").show();
+			 	$(".mao").removeClass("zhaocaimaoyaohuangdianji");
+			 	$(".mao").addClass("zhaocaimaoyaohuangchushi");
+			 	$(".hongbao").removeClass("pengchu");
+			 	$(".niu1").hide();
+	    	    $(".niu3").show();
+	 	 	},3000);
+		});
+		$(".niu4").click(function(){
+	    	$(".mao").removeClass("zhaocaimaoyaohuangchushi");
+	    	$(".mao").addClass("zhaocaimaoyaohuangdianji");
+	    	$(".hongbao").addClass("pengchu");
+	    	setTimeout(function () {
+			 	stop();
+			 	$(".tan1").show();
+			 	$(".mao").removeClass("zhaocaimaoyaohuangdianji");
+			 	$(".mao").addClass("zhaocaimaoyaohuangchushi");
+			 	$(".hongbao").removeClass("pengchu");
+			 	$(".niu4").hide();
+	    	    $(".niu6").show();
+	 	 	},3000);
+		});
+		$(".guan").click(function(){
+			$(".tan").hide();
+			move();
+		});	
+	});
+</script>
+</html>

@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>购买成功wap</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no">
+	<meta name="format-detection" content="telephone=no" />
+	<script type="text/javascript" src="js/rem.js" ></script>
+	<script type="text/javascript" src="js/jquery-1.11.1.min.js" ></script>
+	<script src="js/awardRotate.js"></script>
+	<link rel="stylesheet" href="css/quan.css" />
+	<link rel="stylesheet" href="css/csshake.css" />
+</head>
+<body style="background:#fff; ">
+
+
+
+	<!--弹窗1-->
+	<div class="tan tan2" style="display:none; ">
+		<div class="tann" style="position:absolute;width:9rem;height:6.76rem;left:50%;top:45%; margin-left:-4.5rem;margin-top:-3.38rem;background: url(img/tan2.png) center no-repeat;background-size:cover;     ">
+			<div class="yanse1 size64 centerx" style="margin:1.8rem auto 1.2rem auto;width:5rem; ">温馨提示</div>
+			<div class="yanse4 size38 centerx" style="margin:0 auto;width:8rem; ">离开此弹窗将失去此次尾投奖励机会</div>
+			<div style="position:absolute;bottom:0;width:9rem;  " class="jiangli">
+				<a class="bai size50 centerx buyao" href="javascript:;" style="width:50.7%;height:1.2rem;line-height:1.2rem;display:inline-block;border-bottom-left-radius:0.15rem;-webkit-border-bottom-left-radius:0.15rem;position:absolute;bottom:0;left:0;    ">不要奖励</a>
+				<div style="width:0.3%;height:1.2rem;background:#ec6868;position:absolute;bottom:0;left:50.7%;  "></div>
+				<a class="bai size50 centerx yao" href="weibiaoyoujianghuodong.html" style="width:49%;height:1.2rem;line-height:1.2rem;display:inline-block;border-bottom-right-radius:0.15rem;-webkit-border-bottom-right-radius:0.15rem;position:absolute;bottom:0;right:0;    ">领取奖励</a>
+			</div>
+		</div>	
+	</div>
+
+
+
+
+	<div style="background:#e34554;height:1.7rem;line-height:1.7rem;width:100%;position:relative;text-align:center;     ">
+       <a style="background: url(img/zuo.png) center no-repeat;background-size:cover;width:0.36rem;height:0.62rem;display:block; position:absolute;left:0.35rem;top:0.55rem;    " href="javascript:;" class="fan"></a> 
+       <span class="size60 bai" style="position:relative;top:-0.15rem; ">购买成功</span>
+    </div>
+    <div style="margin:0.9rem auto 1.8rem auto;width:5rem;height:0.8rem;line-height:0.8rem;   " class="centerx">
+        <img src="img/gou.png" / style="width: 0.6rem;height: 0.6rem;display:inline-block;position:relative;top:0.12rem;  ">
+        <div class="size45 yanse5 " style="display:inline-block;">恭喜，购买成功！</div>
+    </div>
+	<div class="size42 yanse5 centerx"><span class="size95 jiacu" style="margin-right:0.1rem; ">1</span>元</div>
+	<div style="background: url(img/xian.png) center no-repeat;background-size:cover;width:8.82rem;height:0.04rem;line-height:0.04rem;margin:1.1rem auto 0 auto;   " class="centerx size45 yanse6">明细</div>
+	<div style="width:8.82rem;margin:0.7rem auto 0.4rem auto;height:0.5rem;    " class="yanse5 size45"><span class="zuo">使用可用余额购买</span><span class="you"><span>1</span>元</span></div>
+	<div style="width:8.82rem;margin:0 auto;   " class="yanse5 size45 qingchu"><span class="zuo">使用天天宝购买</span><span class="you"><span>0</span>元</span></div>
+	<a style="background-size:cover;width:4.51rem;height:4.53rem;display:block;margin:2.4rem auto 0 auto; " class="pan1 shake-slow shake-constant" href="weibiaoyoujianghuodong.html"></a>
+	<div class="size42  qingchu" style="width:4.5rem;margin:1.2rem auto 1.1rem auto; ">
+		<a style="margin-right:0.7rem;  " href="javascript:;" class="yanse7 touzi">投资详情</a>
+		<a href="javascript:;" class="yanse7 qita">其他项目</a>
+	</div>
+	<div style="background: url(img/dibiao.png) center no-repeat;background-size:cover;width:4.58rem;height:1.04rem;margin:0 auto;   " ></div>
+	
+</body>
+<script type="text/javascript">
+	$(function() {
+		//禁止弹窗页面滑动
+        var mo=function(e){e.preventDefault();};
+		function stop(){
+		        document.body.style.overflow='hidden';        
+		        document.addEventListener("touchmove",mo,false);
+		}
+		function move(){
+		        document.body.style.overflow='';
+		        document.removeEventListener("touchmove",mo,false);        
+		}
+		// $(".pan1").click(function(){
+	 //    	$(this).removeClass("shake-slow");
+		// 	$(this).removeClass("shake-constant");
+	 //    	$(".tan2").show();
+		// 	stop();			
+		// });		
+		$(".buyao").click(function(){
+			$(".tan2").hide();
+			move();
+			if($(this).is('.lian1')){
+				window.location.href="https://www.baidu.com/";		
+			}
+			if($(this).is('.lian2')){
+				window.location.href="http://www.szu.edu.cn/";		
+			}
+			if($(this).is('.lian3')){
+				window.location.href="http://www.sysu.edu.cn/2012/cn/index.htm";		
+			}
+		});	
+		// $('.pan1').one("click",function(){
+		// 	$(this).removeClass("shake-slow");
+		// 	$(this).removeClass("shake-constant");
+	 //    	$(".tan2").show();
+		// 	stop();		
+		// });
+		// $(".pan1").hover(function(){
+		// $(this).css({"background-image":"url(img/pan2.png)"});
+		// },function(){
+		//    $(this).css({"background-image":"url(img/pan1.png)"});
+		// });	
+		$(".touzi").click(function(){
+			$(".tan2").show();
+			stop();
+			$(".buyao").addClass("lian1");
+		});	
+		$(".qita").click(function(){
+			$(".tan2").show();
+			stop();
+			$(".buyao").addClass("lian2");
+		});	
+		$(".fan").click(function(){
+			$(".tan2").show();
+			stop();
+			$(".buyao").addClass("lian3");
+		});	
+
+	});
+</script>
+
+</html>
